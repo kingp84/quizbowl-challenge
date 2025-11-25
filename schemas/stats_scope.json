@@ -1,0 +1,21 @@
+{
+  "schema_name": "stats_scope",
+  "scope": {
+    "type": "single_round | tournament | hall_of_fame",
+    "description": "Defines the context in which stats are being tracked."
+  },
+  "participants": {
+    "allowed_types": [
+      "team",
+      "individual"
+    ],
+    "excluded_types": [
+      "computer"
+    ],
+    "clarification": "Stats are tracked only for human teams and individuals; computer participants are excluded."
+  },
+  "stats": {
+    "team": "Reference to the appropriate TeamStats schema (naqt, froshmore, ossaa, trivia)",
+    "individual": "Reference to the appropriate IndividualStats schema (naqt, froshmore, ossaa, trivia)"
+  }
+}

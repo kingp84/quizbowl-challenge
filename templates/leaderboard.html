@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Leaderboards</h2>
+
+<section>
+  <div style="display:flex; gap:12px; align-items:center;">
+    <label>Scope
+      <select id="scope">
+        <option value="single_round">Single Round</option>
+        <option value="tournament" selected>Tournament</option>
+        <option value="hall_of_fame">Hall of Fame</option>
+      </select>
+    </label>
+    <label>Format
+      <select id="format">
+        <option value="NAQT" selected>NAQT</option>
+        <option value="OSSAA">OSSAA</option>
+        <option value="FROSHMORE">Froshmore</option>
+        <option value="TRIVIA">Trivia</option>
+        <option value="ALL">Overall</option>
+      </select>
+    </label>
+    <button id="refresh">Refresh</button>
+  </div>
+</section>
+
+<section id="tables">
+  <h3>Team Leaderboard</h3>
+  <table id="teamTable" style="width:100%; border-collapse:collapse;">
+    <thead id="teamHead"></thead>
+    <tbody></tbody>
+  </table>
+
+  <h3>Individual Leaderboard</h3>
+  <table id="indTable" style="width:100%; border-collapse:collapse;">
+    <thead id="indHead"></thead>
+    <tbody></tbody>
+  </table>
+
+  <div id="hof" style="display:none;">
+    <h3>Hall of Fame</h3>
+    <div style="display:flex; gap:24px;">
+      <div style="flex:1;">
+        <h4>Teams</h4>
+        <table id="hofTeams" style="width:100%; border-collapse:collapse;">
+          <thead><tr><th>Team</th><th>Total</th><th>Avg PPG</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div style="flex:1;">
+        <h4>Individuals</h4>
+        <table id="hofIndividuals" style="width:100%; border-collapse:collapse;">
+          <thead><tr><th>Player</th><th>Total</th><th>Avg PPG</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+<script>
+const scopeEl = document.getElementById('scope');
+const formatEl = document.getElementById('format');
+const refreshBtn = document.getElementById('refresh');
+
+function fmt(n) { return Number(n || 0).toLocaleString(); }
+
+function buildHeaders(format, tableType) {
+  let base = tableType === 'team'
+    ? `<tr><th>Team</th><th>Total</th><th>PPG</th><th>PPC</th>`
+    : `<tr><th>Player</th><th>Total</th><th>PPG</th><th>PPC</th>`;
+  if (format === 'NAQT' || format === 'FROSHMORE') {
+    base += `<th>Powers</th><th>Negs</th>`;
+  }
+  if (format === 'FROSHMORE') {
+    base += `<th>PP24TUH</th>`;
+  }
+  if (format === 'NAQT') {
+    base += `<th>PP20TUH</th>`;
+  }
+  if (format === 'OSSAA') {
+    base += `<th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th>`;
+  }
+  if (format === 'TRIVIA') {
+    base += `<th>History</th><th>Science</th><th>Pop Culture</th>`;
+  }
+  base += `</tr>`;
+  return base;
+}
+
+async function loadLeaderboards() {
+  const scope = scopeEl.value;
+  const format = formatEl.value;
+
+  // Team
+  const teamRes = await fetch(`/api/leaderboard/team?scope=${scope}&format=${format}`);
+  const teamJson = await teamRes.json();
+  const teamHead = document.getElementById('teamHead');
+  teamHead.innerHTML = buildHeaders(format, 'team');
+  const teamTbody = document.querySelector('#teamTable tbody');
+  teamTbody.innerHTML = '';
+  (teamJson.rows || []).forEach(r => {
+    let row = `<td>${r.team_name}</td><td>${fmt(r.tournament_total)}</td><td>${r.ppg}</td><td>${r.ppc}</td>`;
+    if (format === 'NAQT' || format === 'FROSHMORE') {
+      row += `<td>${r.p || 0}</td><td>${r.i || 0}</td>`;
+    }
+    if (format === 'FROSHMORE') {
+      row += `<td>${r.pp24tuh || 0}</td>`;
+    }
+    if (format === 'NAQT') {
+      row += `<td>${r.pp20tuh || 0}</td>`;
+    }
+    if (format === 'OSSAA') {
+      row += `<td>${r.Q1 || 0}</td><td>${r.Q2 || 0}</td><td>${r.Q3 || 0}</td><td>${r.Q4 || 0}</td>`;
+    }
+    if (format === 'TRIVIA') {
+      row += `<td>${r.history || 0}</td><td>${r.science || 0}</td><td>${r.pop_culture || 0}</td>`;
+    }
+    const tr = document.createElement('tr');
+    tr.innerHTML = row;
+    teamTbody.appendChild(tr);
+  });
+
+  // Individual
+  const indRes = await fetch(`/api/leaderboard/individual?scope=${scope}&format=${format}`);
+  const indJson = await indRes.json();
+  const indHead = document.getElementById('indHead');
+  indHead.innerHTML = buildHeaders(format, 'ind');
+  const indTbody = document.querySelector('#indTable tbody');
+  indTbody.innerHTML = '';
+  (indJson.rows || []).forEach(r => {
+    let row = `<td>${r.display_name}</td><td>${fmt(r.tournament_total)}</td><td>${r.ppg}</td><td>${r.ppc}</td>`;
+    if (format === 'NAQT' || format === 'FROSHMORE') {
+      row += `<td>${r.p || 0}</td><td>${r.i || 0}</td>`;
+    }
+    if (format === 'FROSHMORE') {
+      row += `<td>${r.pp24tuh || 0}</td>`;
+    }
+    if (format === 'NAQT') {
+      row += `<td>${r.pp20tuh || 0}</td>`;
+    }
+    if (format === 'OSSAA') {
+      row += `<td>${r.Q1_ind || 0}</td><td

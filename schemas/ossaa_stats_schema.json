@@ -1,0 +1,52 @@
+{
+  "schema_name": "ossaa_stats_schema",
+  "sections": {
+    "TeamStats": {
+      "fields": {
+	"date": "Date of the tournament or single round",
+        "team": "Team name",
+        "round": "Round number",
+        "rank": "Final placement or rank",
+        "w-l": "Win-loss record (proportion of teams defeated)",
+        "points": "Total points scored including tossups and sixty-second rounds"
+      },
+      "quarters": {
+        "Q1": "Team tossup points scored in Quarter 1",
+        "Q2": "Team sixty-second round points scored in Quarter 2",
+        "Q3": "Team tossup points scored in Quarter 3",
+        "Q4": "Team sixty-second round points scored in Quarter 4",
+        "round_total": "Total team points for the round"
+      }
+    },
+    "IndividualStats": {
+      "fields": {
+	"date": "Date of the tournament or single round",
+        "player": "Player name",
+        "round": "Round number",
+        "qtrs_played": "Number of quarters the player participated in",
+        "ind_tu_points": "Total individual tossup points scored",
+        "Q1_ind": "Individual tossup points scored in Quarter 1",
+        "Q2": "Team sixty-second round points credited while player was in",
+        "Q3_ind": "Individual tossup points scored in Quarter 3",
+        "Q4": "Team sixty-second round points credited while player was in",
+        "team_points_with_player": "Total team points scored while this player was in the game"
+      }
+    },
+    "Definitions": {
+      "team_results": {
+        "w-l": "Proportion of teams defeated; primary stat for placement",
+        "%": "Win-loss record expressed as a single number",
+        "points": "Total points scored including tossups and sixty-second rounds"
+      },
+      "individual_results": {
+        "ind_tu_points": "Total tossup points scored by the player",
+        "qtrs_played": "Number of quarters the player participated in",
+        "Q1_ind": "Individual tossup points scored in Quarter 1",
+        "Q2": "Team sixty-second round points credited while player was in",
+        "Q3_ind": "Individual tossup points scored in Quarter 3",
+        "Q4": "Team sixty-second round points credited while player was in",
+        "team_points_with_player": "Total team points scored while this player was in the game"
+      }
+    }
+  }
+}

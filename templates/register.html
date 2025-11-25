@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Register</h2>
+<form method="post" action="/register" enctype="multipart/form-data">
+  <label>Email <input type="email" name="email" required></label>
+  <label>Display Name <input type="text" name="display_name" required></label>
+  <label>Password <input type="password" name="password" required></label>
+  <label>Avatar <input type="file" name="avatar"></label>
+  <button type="submit">Create Account</button>
+</form>
+{% endblock %}

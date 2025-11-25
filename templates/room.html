@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Room: {{ room.name }} ({{ room.code }})</h2>
+<p>Mode: {{ room.mode }} | Format: {{ room.format }} | Private: {{ room.is_private }}</p>
+<div id="play">
+  <button id="start">Start Match</button>
+  <div id="question"></div>
+  <div id="scores"></div>
+</div>
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+<script>
+const socket = io();
+document.getElementById('start').onclick = () => {
+  socket.emit('start_match', { room_id: {{ room.id }} });
+};
+socket.on('question', (payload) => {
+  document.getElementById('question').innerText = payload.text;
+});
+socket.on('scores', (payload) => {
+  document.getElementById('scores').innerText = JSON.stringify(payload);
+});
+</script>
+{% endblock %}

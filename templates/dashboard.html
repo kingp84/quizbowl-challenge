@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Dashboard</h2>
+<section>
+  <h3>Create Team</h3>
+  <form method="post" action="/team/create" enctype="multipart/form-data">
+    <label>Team Name <input type="text" name="name" required></label>
+    <label>Team Avatar <input type="file" name="avatar"></label>
+    <button type="submit">Create</button>
+  </form>
+</section>
+
+<section>
+  <h3>Create Room</h3>
+  <form method="post" action="/room/create">
+    <label>Room Name <input type="text" name="name" required></label>
+    <label>Privacy
+      <select name="is_private">
+        <option value="true">Private</option>
+        <option value="false">Public</option>
+      </select>
+    </label>
+    <label>Mode
+      <select name="mode">
+        <option value="pvp">Player vs Player</option>
+        <option value="pvteam">Player vs Team</option>
+        <option value="teamvsteam">Team vs Team</option>
+      </select>
+    </label>
+    <label>Format
+      <select name="format">
+        <option value="NAQT">NAQT</option>
+        <option value="OSSAA">OSSAA</option>
+        <option value="FROSHMORE">Froshmore</option>
+        <option value="TRIVIA">Trivia</option>
+      </select>
+    </label>
+    <label>Region
+      <select name="region_scope">
+        <option value="local">Local</option>
+        <option value="state">State</option>
+        <option value="country">Country</option>
+        <option value="world">World</option>
+      </select>
+    </label>
+    <label>Max Teams <input type="number" name="max_teams" min="2" max="32" value="32"></label>
+    <label>Tournament? <input type="checkbox" name="is_tournament" value="true"></label>
+    <button type="submit">Create Room</button>
+  </form>
+</section>
+{% endblock %}

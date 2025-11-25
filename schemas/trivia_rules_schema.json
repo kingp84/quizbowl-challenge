@@ -1,0 +1,125 @@
+{
+  "schema_name": "trivia_rules_schema",
+  "sections": {
+    "GeneralInformation": {
+      "format": "Pub Trivia",
+      "eligibility": "All participants, but will be played according to Pub Trivia rules and format."
+    },
+    "Participants": {
+      "team": {
+        "max_active_players": 4,
+        "min_active_players": 1,
+        "roster_limit": 4,
+        "captain_required": true,
+        "captain_requirement": "Each team must designate a captain prior to the beginning of the game."
+      },
+      "individual": {
+        "allowed": true,
+        "clarification": "A single player may compete in trivia tournaments alongside teams or other individuals."
+      }
+    },
+    "Registration": {
+      "team_roster_fields": [
+        "Player 1 - Captain",
+        "Player 2",
+        "Player 3",
+        "Player 4",
+        "Player 5",
+        "Player 6"
+      ],
+      "individual_roster_fields": [
+        "Player 1 - Captain"
+      ],
+      "notes": "Teams must designate their captain during registration. If individuals play, the sole player is automatically the captain."
+    },
+    "SingleRoundPlay": {
+      "structure": {
+        "questions_per_round": 100,
+        "clarification": "Each round contains 5 questions from each category.",
+        "question_category": [
+          "general knowledge",
+          "history",
+          "geography",
+          "science",
+          "pop culture",
+          "sports",
+          "movies",
+          "music",
+          "literature",
+          "food and drink",
+          "current events",
+          "technology",
+          "art",
+          "politics",
+          "nature",
+          "mythology",
+          "business",
+          "language",
+          "television",
+          "miscellaneous"
+        ],
+        "time_per_question_seconds": 30
+      },
+      "scoring": {
+        "correct_answer_points": 1,
+        "no_negative_scoring": true,
+        "tiebreaker": "If scores are tied at the end of any round, individual tossups will be asked until there is a clear winner."
+      }
+    },
+    "TournamentPlay": {
+      "options": {
+        "mixed_category_mode": {
+          "preliminary_stage": {
+            "rounds": 10,
+            "questions_per_round": 50,
+            "clarification": "Each round will consist of 50 questions with a random but even distribution of each category",
+            "advancement_criteria": [
+              "Win/Loss record",
+              "Points per game (PPG)",
+              "Head-to-head results"
+            ]
+          },
+          "championship_stage": {
+            "format": "Best 2 out of 3",
+            "questions_per_round": 50,
+            "distribution": "Mixed categories (random but equal distribution)"
+          }
+        },
+        "category_themed_mode": {
+          "preliminary_stage": {
+            "rounds": 10,
+            "clarification": "Each round is category-themed; all questions in that round pertain only to the chosen category and will consist of 50 questions.",
+            "advancement_criteria": [
+              "Win/Loss record",
+              "Points per game (PPG)",
+              "Head-to-head results"
+            ]
+          },
+          "championship_stage": {
+            "format": "Best 2 out of 3",
+            "questions_per_round": 50,
+            "distribution": "Mixed categories (random but equal distribution)"
+          }
+        }
+      },
+      "tiebreaker_procedure": "At the end of any round (preliminary or championship), if scores are tied, individual tossups will be asked until there is a clear winner."
+    },
+    "VersusModes": {
+      "single_round_mode": [
+        "Player vs. Player",
+        "Player vs. Team",
+        "Team vs. Team"
+      ],
+      "player_vs_computer_mode": [
+        "Player vs. Computer",
+        "Team vs. Computer"
+      ],
+      "clarification": "Versus modes follow the same trivia format and scoring rules as tournament play."
+    },
+    "Gameplay": {
+      "timers": {
+        "tossup": 30
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Tournament Brackets</h2>
+
+<section style="margin-bottom:20px;">
+  <form id="bracketForm">
+    <label for="format">Format:</label>
+    <select id="format" name="format">
+      <option value="single_elimination">Single Elimination</option>
+      <option value="double_elimination">Double Elimination</option>
+      <option value="round_robin">Round Robin</option>
+    </select>
+
+    <label for="teams">Teams (comma separated):</label>
+    <input type="text" id="teams" name="teams" placeholder="Team A, Team B, Team C" style="width:300px;">
+
+    <button type="submit">Generate Bracket</button>
+  </form>
+</section>
+
+<section id="bracketOutput">
+  <h3>Bracket Results</h3>
+  <div id="bracketDisplay"></div>
+</section>
+
+<script>
+document.getElementById("bracketForm").addEventListener("submit", async function(e) {
+  e.preventDefault();
+  const format = document.getElementById("format").value;
+  const teams = document.getElementById("teams").value.split(",").map(t => t.trim()).filter(t => t.length > 0);
+
+  const res = await fetch("/api/bracket", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ format: format, teams: teams })
+  });
+  const json = await res.json();
+
+  const display = document.getElementById("bracketDisplay");
+  display.innerHTML = "";
+
+  if (!json.ok) {
+    display.innerHTML = `<p style="color:red;">Error: ${json.error}</p>`;
+    return;
+  }
+
+  const bracket = json.bracket;
+  if (bracket.type === "single_elimination" || bracket.type === "round_robin") {
+    const table = document.createElement("table");
+    table.style.width = "100%";
+    table.style.borderCollapse = "collapse";
+    table.innerHTML = "<thead><tr><th>Round</th><th>Team 1</th><th>Team 2</th></tr></thead>";
+    const tbody = document.createElement("tbody");
+    bracket.matches.forEach(m => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${m.round}</td><td>${m.team1}</td><td>${m.team2}</td>`;
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    display.appendChild(table);
+  } else if (bracket.type === "double_elimination") {
+    const winners = bracket.matches.winners;
+    const losers = bracket.matches.losers;
+
+    const winnersTable = document.createElement("table");
+    winnersTable.style.width = "100%";
+    winnersTable.style.borderCollapse = "collapse";
+    winnersTable.innerHTML = "<thead><tr><th>Round</th><th>Team 1</th><th>Team 2</th></tr></thead>";
+    const winnersBody = document.createElement("tbody");
+    winners.forEach(m => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${m.round}</td><td>${m.team1}</td><td>${m.team2}</td>`;
+      winnersBody.appendChild(tr);
+    });
+    winnersTable.appendChild(winnersBody);
+
+    const losersTable = document.createElement("table");
+    losersTable.style.width = "100%";
+    losersTable.style.borderCollapse = "collapse";
+    losersTable.innerHTML = "<thead><tr><th>Round</th><th>Loser From</th></tr></thead>";
+    const losersBody = document.createElement("tbody");
+    losers.forEach(m => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${m.round}</td><td>${m.loser_from}</td>`;
+      losersBody.appendChild(tr);
+    });
+    losersTable.appendChild(losersBody);
+
+    display.innerHTML = "<h4>Winners Bracket</h4>";
+    display.appendChild(winnersTable);
+    display.innerHTML += "<h4>Losers Bracket</h4>";
+    display.appendChild(losersTable);
+  }
+});
+</script>
+{% endblock %}

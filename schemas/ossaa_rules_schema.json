@@ -1,0 +1,103 @@
+{
+  "schema_name": "ossaa_rules_schema",
+  "sections": {
+    "GeneralInformation": {
+      "official_source": "https://ossaa.com/OSSAA",
+      "usage_conditions": [
+        "Identify rules as OSSAA rules",
+        "All questions and packets are either GPT-5 AI generated or from https://ossaa.com/OSSAA"
+      ],
+      "eligibility": "All participants, but will be played according to OSSAA rules and format."
+    },
+    "Participants": {
+      "team": {
+        "max_active_players": 4,
+        "min_active_players": 1,
+        "roster_limit": 4,
+        "captain_required": true,
+        "captain_requirement": "Each team must designate a captain prior to the beginning of the game."
+      },
+      "individual": {
+        "allowed": true,
+        "clarification": "A single player may compete in tournaments alongside teams or other individuals."
+      }
+    },
+    "Registration": {
+      "team_roster_fields": [
+        "Player 1 - Captain",
+        "Player 2",
+        "Player 3",
+        "Player 4"
+      ],
+      "individual_roster_fields": [
+        "Player 1 - Captain"
+      ],
+      "notes": "Teams must designate their captain during registration. If individuals play, the sole player is automatically the captain."
+    },
+    "Tournaments": {
+      "round_robin_tournament": {
+        "structure": "Round robin preliminary stage followed by a championship stage",
+        "preliminary_stage": {
+          "rounds": 10,
+          "format": "Standard OSSAA tossup/bonus cycle maintained",
+          "advancement_criteria": [
+            "Win/Loss record",
+            "Points per game (PPG)",
+            "Head-to-head results"
+          ]
+        },
+        "championship_stage": {
+          "format": "Best 2 out of 3",
+          "advancement": "Top 2 teams/individuals from preliminary stage advance"
+        }
+      },
+      "single_elimination_tournament": {
+        "structure": "Single elimination format",
+        "clarification": "Participants play to determine a champion; if a participant loses once, they are eliminated."
+      },
+      "double_elimination_tournament": {
+        "structure": "Double elimination format",
+        "clarification": "Participants play to determine a champion; there is a winners bracket and a losers bracket."
+      },
+      "single_round_mode": {
+        "structure": "Participants play one round consisting of tossups and a sixty-second round.",
+        "procedures": {
+          "first_quarter_tiebreaker": "If the score is tied at the end of the first quarter, individual tossups will be asked until there is clearly one participant in the lead.",
+          "sixty_second_round_choice": "At the end of the first quarter, the participant in the lead chooses to play the sixty-second round first or defer first choice to the fourth quarter.",
+          "end_of_game_tiebreaker": "At the end of the fourth quarter, if there is a tie, individual tossups will be asked until there is a clear winner."
+        },
+        "clarification": "This same tiebreaker procedure applies to all rounds in both single and tournament play."
+      },
+      "player_vs_computer_mode": {
+        "options": [
+          "Player vs. Computer",
+          "Team vs. Computer"
+        ],
+        "clarification": "Computer opponent follows the same rules and scoring as human participants."
+      }
+    },
+    "Questions": {
+      "tossup": {
+        "points": 10,
+        "clarification": "Twenty toss-up questions per quarter in quarters one and three."
+      },
+      "bonus": {
+        "sixty_second_round": {
+          "questions": 10,
+          "points_each": 10,
+          "conferring_allowed": true,
+          "clarification": "Ten related questions answered in sixty seconds; each correct response is worth 10 points."
+        }
+      }
+    },
+    "Gameplay": {
+      "tossup_cycle": "Begins with tossup, ends after bonus or both teams fail",
+      "bonus_cycle": "Earned after correct tossup; consists of ten related questions in sixty seconds, each worth 10 points.",
+      "tiebreaker_procedure": "At the end of any round (single or tournament), if scores are tied, individual tossups will be asked until there is a clear winner.",
+      "timers": {
+        "tossup": 10,
+        "sixty_second": 60, "Time begins after the first questions is read."
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+body { font-family: system-ui, sans-serif; background: #0b1021; color: #e6e8ee; }
+header { display:flex; justify-content:space-between; align-items:center; padding:12px 24px; background:#12183a; }
+nav a { color:#9ac6ff; margin-right:12px; text-decoration:none; }
+button { background:#2a66ff; color:#fff; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; }
+section { background:#151c3c; padding:16px; border-radius:8px; margin:12px 0; }
+h1, h2, h3 { color:#b8d1ff; }

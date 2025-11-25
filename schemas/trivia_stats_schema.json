@@ -1,0 +1,84 @@
+{
+  "schema_name": "trivia_stats_schema",
+  "sections": {
+    "TeamStats": {
+      "fields": {
+        "date": "Date of the trivia tournament or single round",
+        "team": "Team name",
+        "rank": "Final placement or rank",
+        "round_scores": "Total points scored at the end of each round",
+        "tournament_total": "Total points scored across all rounds in the tournament",
+        "ppg": "Points per game = average points scored per round",
+        "ppc": "Points per category = average points scored per category"
+      },
+      "categories": {
+        "general_knowledge": "Points scored in general knowledge questions",
+        "history": "Points scored in history questions",
+        "geography": "Points scored in geography questions",
+        "science": "Points scored in science questions",
+        "pop_culture": "Points scored in pop culture questions",
+        "sports": "Points scored in sports questions",
+        "movies": "Points scored in movie questions",
+        "music": "Points scored in music questions",
+        "literature": "Points scored in literature questions",
+        "food_and_drink": "Points scored in food and drink questions",
+        "current_events": "Points scored in current events questions",
+        "technology": "Points scored in technology questions",
+        "art": "Points scored in art questions",
+        "politics": "Points scored in politics questions",
+        "nature": "Points scored in nature questions",
+        "mythology": "Points scored in mythology questions",
+        "business": "Points scored in business questions",
+        "language": "Points scored in language questions",
+        "television": "Points scored in television questions",
+        "miscellaneous": "Points scored in miscellaneous questions"
+      }
+    },
+    "IndividualStats": {
+      "fields": {
+	"date": "Date of the trivia tournament or single round",        
+	"player": "Player name",
+        "round_scores": "Total points scored by the player at the end of each round",
+        "tournament_total": "Total points scored by the player across all rounds in the tournament",
+        "ppg": "Points per game = average points scored per round",
+        "ppc": "Points per category = average points scored per category"
+      },
+      "categories": {
+        "general_knowledge": "Points scored by the player in general knowledge questions",
+        "history": "Points scored by the player in history questions",
+        "geography": "Points scored by the player in geography questions",
+        "science": "Points scored by the player in science questions",
+        "pop_culture": "Points scored by the player in pop culture questions",
+        "sports": "Points scored by the player in sports questions",
+        "movies": "Points scored by the player in movie questions",
+        "music": "Points scored by the player in music questions",
+        "literature": "Points scored by the player in literature questions",
+        "food_and_drink": "Points scored by the player in food and drink questions",
+        "current_events": "Points scored by the player in current events questions",
+        "technology": "Points scored by the player in technology questions",
+        "art": "Points scored by the player in art questions",
+        "politics": "Points scored by the player in politics questions",
+        "nature": "Points scored by the player in nature questions",
+        "mythology": "Points scored by the player in mythology questions",
+        "business": "Points scored by the player in business questions",
+        "language": "Points scored by the player in language questions",
+        "television": "Points scored by the player in television questions",
+        "miscellaneous": "Points scored by the player in miscellaneous questions"
+      }
+    },
+    "Definitions": {
+      "team_results": {
+        "round_scores": "Total points scored at the end of each round",
+        "tournament_total": "Total points scored across all rounds in the tournament",
+        "ppg": "Points per game = average points scored per round",
+        "ppc": "Points per category = average points scored per category"
+      },
+      "individual_results": {
+        "round_scores": "Total points scored by the player at the end of each round",
+        "tournament_total": "Total points scored by the player across all rounds in the tournament",
+        "ppg": "Points per game = average points scored per round",
+        "ppc": "Points per category = average points scored per category"
+      }
+    }
+  }
+}

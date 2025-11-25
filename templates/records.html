@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Records</h2>
+
+<section>
+  <h3>Overall Records</h3>
+  <table style="width:100%; border-collapse:collapse;">
+    <thead>
+      <tr>
+        <th style="text-align:left;">Category</th>
+        <th style="text-align:left;">Player</th>
+        <th style="text-align:right;">Value</th>
+      </tr>
+    </thead>
+    <tbody id="overallRecords"></tbody>
+  </table>
+</section>
+
+<section>
+  <h3>Format Records</h3>
+  <div id="formatRecords"></div>
+</section>
+
+<script>
+async function loadRecords() {
+  const res = await fetch("/api/records");
+  const json = await res.json();
+  if (!json.ok) return;
+
+  const overall = json.records.overall;
+  const overallBody = document.getElementById("overallRecords");
+  overallBody.innerHTML = "";
+  Object.keys(overall).forEach(key => {
+    const rec = overall[key];
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${key.toUpperCase()}</td>
+      <td>${rec.player}</td>
+      <td style="text-align:right;">${rec.value}</td>
+    `;
+    overallBody.appendChild(tr);
+  });
+
+  const formats = json.records.formats;
+  const formatDiv = document.getElementById("formatRecords");
+  formatDiv.innerHTML = "";
+  Object.keys(formats).forEach(fmt => {
+    const recs = formats[fmt];
+    const section = document.createElement("div");
+    section.innerHTML = `
+      <h4>${fmt} Records</h4>
+      <table style="width:100%; border-collapse:collapse; margin-bottom:16px;">
+        <thead>
+          <tr>
+            <th style="text-align:left;">Category</th>
+            <th style="text-align:left;">Player</th>
+            <th style="text-align:right;">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${Object.keys(recs).map(k => {
+            const r = recs[k];
+            if (!r) return "";
+            return `
+              <tr>
+                <td>${k.toUpperCase()}</td>
+                <td>${r.player}</td>
+                <td style="text-align:right;">${r.value}</td>
+              </tr>
+            `;
+          }).join("")}
+        </tbody>
+      </table>
+    `;
+    formatDiv.appendChild(section);
+  });
+}
+
+loadRecords();
+</script>
+{% endblock %}

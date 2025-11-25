@@ -1,0 +1,59 @@
+{
+  "schema_name": "froshmore_stats_schema",
+  "sections": {
+    "TeamStats": {
+      "fields": {
+        "date": "Date of the tournament or single round",
+        "team": "Team name",
+        "rank": "Final placement or rank",
+        "w-l": "Win-loss record (proportion of teams defeated)",
+        "points": "Total points scored including tossups, bonuses, and other formats",
+        "tuh": "Tossups Heard = total tossup questions available to the team",
+        "p": "Powers = tossups answered early enough for extra points",
+        "tu": "Regular Tossups = tossups answered correctly without power",
+        "i": "Interrupts (negs) = incorrect early buzzes",
+        "ppb": "Points per bonus = average points scored per bonus heard",
+        "pp24tuh": "Points per 24 tossups heard = normalized scoring metric for Froshmore format"
+      }
+    },
+    "IndividualStats": {
+      "fields": {
+        "date": "Date of the tournament or single round",
+        "player": "Player name",
+        "t": "Tournaments played (career or season)",
+        "gp": "Games played = appearances in games",
+        "tuh": "Tossups Heard = tossups available to the player",
+        "pts": "Total points scored (tossups only)",
+        "p": "Powers = tossups answered early enough for extra points",
+        "tu": "Regular Tossups = tossups answered correctly without power",
+        "i": "Interrupts (negs) = incorrect early buzzes",
+        "p%": "Power Percentage = proportion of correct tossups that were powers (P / (P + TU))",
+        "pp24tuh": "Points per 24 tossups heard = normalized scoring metric for Froshmore format"
+      }
+    },
+    "Definitions": {
+      "team_results": {
+        "w-l": "Proportion of teams defeated; primary stat for placement",
+        "%": "Win-loss record expressed as a single number",
+        "tuh": "Tossups Heard = total tossups available",
+        "points": "Total points scored including tossups, bonuses, bouncebacks, worksheets, lightning rounds",
+        "p": "Powers = tossups answered early enough for extra points",
+        "tu": "Regular Tossups = tossups answered correctly without power",
+        "i": "Interrupts (negs) = incorrect early buzzes",
+        "ppb": "Points per bonus = average points scored per bonus heard",
+        "pp24tuh": "Points per 24 tossups heard = normalized scoring metric for Froshmore format"
+      },
+      "individual_results": {
+        "t": "Tournaments played",
+        "gp": "Games played",
+        "tuh": "Tossups Heard = tossups available to the player",
+        "pts": "Total points scored (tossups only)",
+        "p": "Powers = tossups answered early enough for extra points",
+        "tu": "Regular Tossups = tossups answered correctly without power",
+        "i": "Interrupts (negs) = incorrect early buzzes",
+        "p%": "Power Percentage = proportion of correct tossups that were powers",
+        "pp24tuh": "Points per 24 tossups heard = normalized scoring metric for Froshmore format"
+      }
+    }
+  }
+}
