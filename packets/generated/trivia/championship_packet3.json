@@ -1,0 +1,127 @@
+{
+  "format": "Trivia",
+  "round": "Championship Packet 3 - Final Frontier",
+  "questions": [
+    { "id": "q1", "category": "Science", "text": "What is the chemical symbol for iron?", "answer": "Fe" },
+    { "id": "q2", "category": "Science", "text": "Which planet has the fastest rotation?", "answer": "Jupiter" },
+    { "id": "q3", "category": "Science", "text": "What gas makes up most of Earth's atmosphere?", "answer": "Nitrogen" },
+    { "id": "q4", "category": "Science", "text": "What is the study of earthquakes called?", "answer": "Seismology" },
+    { "id": "q5", "category": "Science", "text": "Who discovered penicillin?", "answer": "Alexander Fleming" },
+
+    { "id": "q6", "category": "Literature", "text": "Who wrote 'The Odyssey'?", "answer": "Homer" },
+    { "id": "q7", "category": "Literature", "text": "Who wrote 'Great Expectations'?", "answer": "Charles Dickens" },
+    { "id": "q8", "category": "Literature", "text": "Who wrote 'The Divine Comedy'?", "answer": "Dante Alighieri" },
+    { "id": "q9", "category": "Literature", "text": "Who wrote 'Don Quixote'?", "answer": "Miguel de Cervantes" },
+    { "id": "q10", "category": "Literature", "text": "Who wrote 'The Canterbury Tales'?", "answer": "Geoffrey Chaucer" },
+
+    { "id": "q11", "category": "Sports", "text": "Which country won the FIFA World Cup in 2006?", "answer": "Italy" },
+    { "id": "q12", "category": "Sports", "text": "How many minutes are in a standard soccer match?", "answer": "90" },
+    { "id": "q13", "category": "Sports", "text": "Which sport uses a bat and ball and is popular in India?", "answer": "Cricket" },
+    { "id": "q14", "category": "Sports", "text": "Who has won the most NBA championships as a player?", "answer": "Bill Russell" },
+    { "id": "q15", "category": "Sports", "text": "Which sport is played at the Kentucky Derby?", "answer": "Horse Racing" },
+
+    { "id": "q16", "category": "Music", "text": "Who composed 'The Magic Flute'?", "answer": "Wolfgang Amadeus Mozart" },
+    { "id": "q17", "category": "Music", "text": "Which band released 'Hotel California'?", "answer": "Eagles" },
+    { "id": "q18", "category": "Music", "text": "Who is known as the 'Material Girl'?", "answer": "Madonna" },
+    { "id": "q19", "category": "Music", "text": "Which instrument is part of the brass family?", "answer": "Trumpet" },
+    { "id": "q20", "category": "Music", "text": "Who composed 'Boléro'?", "answer": "Maurice Ravel" },
+
+    { "id": "q21", "category": "Movies", "text": "Who directed 'The Godfather'?", "answer": "Francis Ford Coppola" },
+    { "id": "q22", "category": "Movies", "text": "Which movie features the quote 'Here's looking at you, kid'?", "answer": "Casablanca" },
+    { "id": "q23", "category": "Movies", "text": "Who played Neo in 'The Matrix'?", "answer": "Keanu Reeves" },
+    { "id": "q24", "category": "Movies", "text": "Which movie won Best Picture at the Oscars in 1998?", "answer": "Titanic" },
+    { "id": "q25", "category": "Movies", "text": "Which movie features a ring that must be destroyed?", "answer": "The Lord of the Rings" },
+
+    { "id": "q26", "category": "Art", "text": "Who painted 'Girl with a Pearl Earring'?", "answer": "Johannes Vermeer" },
+    { "id": "q27", "category": "Art", "text": "Which artist is known for 'The Kiss'?", "answer": "Gustav Klimt" },
+    { "id": "q28", "category": "Art", "text": "Which artist painted 'The School of Athens'?", "answer": "Raphael" },
+    { "id": "q29", "category": "Art", "text": "Which artist is known for 'American Gothic'?", "answer": "Grant Wood" },
+    { "id": "q30", "category": "Art", "text": "Which artist painted 'The Night Watch'?", "answer": "Rembrandt" },
+
+    { "id": "q31", "category": "Technology", "text": "Who founded Intel?", "answer": "Robert Noyce and Gordon Moore" },
+    { "id": "q32", "category": "Technology", "text": "Which company created the Macintosh computer?", "answer": "Apple" },
+    { "id": "q33", "category": "Technology", "text": "What does 'RAM' stand for?", "answer": "Random Access Memory" },
+    { "id": "q34", "category": "Technology", "text": "What does 'ROM' stand for?", "answer": "Read-Only Memory" },
+    { "id": "q35", "category": "Technology", "text": "Which company created the Xbox console?", "answer": "Microsoft" },
+
+    { "id": "q36", "category": "Food", "text": "What is the national dish of Spain made with rice and seafood?", "answer": "Paella" },
+    { "id": "q37", "category": "Food", "text": "Which fruit is dried to make raisins?", "answer": "Grapes" },
+    { "id": "q38", "category": "Food", "text": "What is the main ingredient in tofu?", "answer": "Soybeans" },
+    { "id": "q39", "category": "Food", "text": "Which vegetable is used to make sauerkraut?", "answer": "Cabbage" },
+    { "id": "q40", "category": "Food", "text": "Which fruit is known as the 'fruit of paradise'?", "answer": "Pomegranate" },
+
+    { "id": "q41", "category": "Mythology", "text": "Who is the Greek hero who slew Medusa?", "answer": "Perseus" },
+    { "id": "q42", "category": "Mythology", "text": "Who is the Greek hero who completed twelve labors?", "answer": "Heracles (Hercules)" },
+    { "id": "q43", "category": "Mythology", "text": "Who is the Roman hero who founded Rome?", "answer": "Romulus" },
+    { "id": "q44", "category": "Mythology", "text": "Who is the Greek goddess of victory?", "answer": "Nike" },
+    { "id": "q45", "category": "Mythology", "text": "Who is the Norse god who sacrificed his eye for wisdom?", "answer": "Odin" },
+
+    { "id": "q46", "category": "Animals", "text": "Which animal is the largest reptile?", "answer": "Saltwater Crocodile" },
+    { "id": "q47", "category": "Animals", "text": "Which animal is the fastest marine mammal?", "answer": "Common Dolphin" },
+    { "id": "q48", "category": "Animals", "text": "Which animal is the largest primate?", "answer": "Gorilla" },
+    { "id": "q49", "category": "Animals", "text": "Which animal is the largest rodent?", "answer": "Capybara" },
+    { "id": "q50", "category": "Animals", "text": "Which animal is the largest snake?", "answer": "Green Anaconda" },
+
+    { "id": "q51", "category": "Space", "text": "What is the name of the largest moon of Saturn?", "answer": "Titan" },
+    { "id": "q52", "category": "Space", "text": "Which planet has the most moons?", "answer": "Saturn" },
+    { "id": "q53", "category": "Space", "text": "What was the first artificial satellite launched into space?", "answer": "Sputnik 1" },
+    { "id": "q54", "category": "Space", "text": "Which planet has a day longer than its year?", "answer": "Venus" },
+    { "id": "q55", "category": "Space", "text": "Who was the first human in space?", "answer": "Yuri Gagarin" },
+
+    { "id": "q56", "category": "Politics", "text": "Which U.S. president signed the Social Security Act?", "answer": "Franklin D. Roosevelt" },
+    { "id": "q57", "category": "Politics", "text": "Who was the first female Prime Minister of Israel?", "answer": "Golda Meir" },
+    { "id": "q58", "category": "Politics", "text": "Which U.S. president resigned due to the Watergate scandal?", "answer": "Richard Nixon" },
+    { "id": "q59", "category": "Politics", "text": "Who was the first president of South Africa after apartheid?", "answer": "Nelson Mandela" },
+    { "id": "q60", "category": "Politics", "text": "Which U.S. president signed the Voting Rights Act of 1965?", "answer": "Lyndon B. Johnson" },
+
+    { "id": "q61", "category": "Language", "text": "What is the official language of Greece?", "answer": "Greek" },
+    { "id": "q62", "category": "Language", "text": "What is the official language of Turkey?", "answer": "Turkish" },
+    { "id": "q63", "category": "Language", "text": "What is the official language of Iran?", "answer": "Persian (Farsi)" },
+    { "id": "q64", "category": "Language", "text": "What is the official language of Israel?", "answer": "Hebrew" },
+    { "id": "q65", "category": "Language", "text": "What is the official language of Pakistan?", "answer": "Urdu" },
+
+    { "id": "q66", "category": "Business", "text": "Who founded Intel?", "answer": "Robert Noyce and Gordon Moore" },
+    { "id": "q67", "category": "Business", "text": "Who founded Oracle Corporation?", "answer": "Larry Ellison, Bob Miner, and Ed Oates" },
+    { "id": "q68", "category": "Business", "text": "Who founded PayPal?", "answer": "Max Levchin, Peter Thiel, and Luke Nosek" },
+    { "id": "q69", "category": "Business", "text": "Who founded Uber?", "answer": "Garrett Camp and Travis Kalanick" },
+    { "id": "q70", "category": "Business", "text": "Who founded Airbnb?", "answer": "Brian Chesky, Joe Gebbia, and Nathan Blecharczyk" },
+
+    { "id": "q71", "category": "Religion", "text": "What is the central symbol of Christianity?", "answer": "Cross" },
+    { "id": "q72", "category": "Religion", "text": "What is the central symbol of Islam?", "answer": "Crescent and Star" },
+    { "id": "q73", "category": "Religion", "text": "What is the central symbol of Judaism?", "answer": "Star of David" },
+    { "id": "q74", "category": "Religion", "text": "What is the central symbol of Hinduism?", "answer": "Om" },
+    { "id": "q75", "category": "Religion", "text": "What is the central symbol of Buddhism?", "answer": "Dharma Wheel" },
+
+    { "id": "q76", "category": "Pop Culture", "text": "Which actor played Frodo Baggins in 'The Lord of the Rings'?", "answer": "Elijah Wood" },
+    { "id": "q77", "category": "Pop Culture", "text": "Which TV show features the character Homer Simpson?", "answer": "The Simpsons" },
+    { "id": "q78", "category": "Pop Culture", "text": "Which movie features the character Batman?", "answer": "The Dark Knight" },
+    { "id": "q79", "category": "Pop Culture", "text": "Which singer released the album 'Born This Way'?", "answer": "Lady Gaga" },
+    { "id": "q80", "category": "Pop Culture", "text": "Which actor played Spider-Man in the 2002 film?", "answer": "Tobey Maguire" },
+
+    { "id": "q81", "category": "Geography", "text": "What is the capital of India?", "answer": "New Delhi" },
+    { "id": "q82", "category": "Geography", "text": "What is the capital of China?", "answer": "Beijing" },
+    { "id": "q83", "category": "Geography", "text": "What is the capital of Russia?", "answer": "Moscow" },
+    { "id": "q84", "category": "Geography", "text": "What is the capital of South Africa?", "answer": "Pretoria, Bloemfontein, and Cape Town" },
+    { "id": "q85", "category": "Geography", "text": "What is the capital of Egypt?", "answer": "Cairo" },
+
+    { "id": "q86", "category": "History", "text": "Which empire was ruled by Alexander the Great?", "answer": "Macedonian Empire" },
+    { "id": "q87", "category": "History", "text": "Which country was the first to use atomic bombs in warfare?", "answer": "United States" },
+    { "id": "q88", "category": "History", "text": "Who was the leader of the Soviet Union during World War II?", "answer": "Joseph Stalin" },
+    { "id": "q89", "category": "History", "text": "Which country was divided into North and South after World War II?", "answer": "Korea" },
+    { "id": "q90", "category": "History", "text": "Which empire was ruled by Augustus?", "answer": "Roman Empire" },
+
+    { "id": "q91", "category": "Philosophy", "text": "Who wrote 'Meditations on First Philosophy'?", "answer": "René Descartes" },
+    { "id": "q92", "category": "Philosophy", "text": "Who is known as the father of utilitarianism?", "answer": "Jeremy Bentham" },
+    { "id": "q93", "category": "Philosophy", "text": "Who wrote 'Being and Time'?", "answer": "Martin Heidegger" },
+    { "id": "q94", "category": "Philosophy", "text": "Which philosopher is associated with the social contract theory?", "answer": "Jean-Jacques Rousseau" },
+    { "id": "q95", "category": "Philosophy", "text": "Who wrote 'The Prince'?", "answer": "Niccolò Machiavelli" },
+
+    { "id": "q96", "category": "Movies", "text": "Which movie won Best Picture at the Oscars in 1999?", "answer": "Shakespeare in Love" },
+    { "id": "q97", "category": "Sports", "text": "Which sport is played at the Masters Tournament?", "answer": "Golf" },
+    { "id": "q98", "category": "Music", "text": "Who composed 'Swan Lake'?", "answer": "Pyotr Ilyich Tchaikovsky" },
+    { "id": "q99", "category": "Art", "text": "Which artist painted 'The Birth of Venus'?", "answer": "Sandro Botticelli" },
+    { "id": "q100", "category": "Science", "text": "What is the chemical symbol for carbon?", "answer": "C" }
+  ]
+}
+
+

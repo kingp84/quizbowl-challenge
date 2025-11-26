@@ -1,8 +1,255 @@
-{% extends "base.html" %}
-{% block content %}
-<section>
-  <h2>Modern Academic Gaming</h2>
-  <p>Build rooms, choose formats, invite friends, add bots, and climb the leaderboards.</p>
-  <a href="/dashboard">Go to Dashboard</a>
-</section>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quizbowl Challenge</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f6f9; text-align: center; padding: 20px; }
+        h1 { color: #2c3e50; }
+        button { margin: 5px; padding: 10px 20px; background: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #2980b9; }
+        .panel { background: white; border: 1px solid #ddd; padding: 15px; margin: 10px auto; width: 80%; border-radius: 5px; text-align: left; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 8px; border-bottom: 1px solid #ddd; text-align: left; }
+        th { background: #3498db; color: white; }
+        .row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 12px; }
+        .muted { color: #7f8c8d; }
+        .lockout { background: #e74c3c; color: white; padding: 4px 8px; border-radius: 4px; display: inline-block; }
+        pre { white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+    <h1>Quizbowl Challenge</h1>
+
+    <!-- Setup Wizard -->
+    <div id="setup" class="panel">
+        <h2>Game setup</h2>
+
+        <div class="row">
+            <label>Format:
+                <select id="format" onchange="onFormatChange()">
+                    <option value="">--Select--</option>
+                    <option value="NAQT">NAQT</option>
+                    <option value="OSSAA">OSSAA</option>
+                    <option value="Froshmore">Froshmore</option>
+                    <option value="Trivia">Trivia</option>
+                </select>
+            </label>
+
+            <label>Players:
+                <select id="playerCount" onchange="onPlayerCountChange()">
+                    <option value="">--Select--</option>
+                    <option value="single">Single Player</option>
+                    <option value="versus">Versus Mode</option>
+                    <option value="teams">Team Mode</option>
+                </select>
+            </label>
+
+            <label id="tournamentBlock" style="display:none;">Tournament:
+                <select id="tournamentType">
+                    <option value="single">Single Round</option>
+                    <option value="roundrobin">Round Robin</option>
+                    <option value="singleelim">Single Elimination</option>
+                    <option value="doubleelim">Double Elimination</option>
+                </select>
+            </label>
+
+            <label>Room:
+                <select id="room">
+                    <option value="private">Private Room</option>
+                    <option value="online">Online Public</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="row">
+            <label>Username: <input id="username" /></label>
+            <label>Role:
+                <select id="role">
+                    <option value="player">Player</option>
+                    <option value="moderator">Moderator</option>
+                </select>
+            </label>
+        </div>
+
+        <div id="teamSetup" class="row" style="display:none;">
+            <label>Team name: <input id="teamName" /></label>
+            <label>Roster (comma-separated): <input id="roster" /></label>
+        </div>
+
+        <div class="row">
+            <button onclick="submitSetup()">Complete setup</button>
+            <button onclick="loadPacket()">Load Packet (random)</button>
+            <button onclick="joinGame()">Join game</button>
+        </div>
+
+        <p class="muted">Choose format and load a packet. Trivia uses flat questions and can auto-load AI samples.</p>
+    </div>
+
+    <!-- Game UI -->
+    <div id="game" style="display:none;">
+        <div class="row">
+            <button id="buzzBtn" onclick="buzz()">Buzz!</button>
+            <button onclick="answer(true)">Correct</button>
+            <button onclick="answer(false)">Wrong</button>
+            <button onclick="nextQuestion()">Next Question</button>
+            <button onclick="revealNextClue()">Reveal Next Clue</button>
+        </div>
+
+        <div class="panel">
+            <h2>Players</h2>
+            <div id="players"></div>
+        </div>
+
+        <div class="panel">
+            <h2>Scores</h2>
+            <div id="scores"></div>
+        </div>
+
+        <div class="panel">
+            <h2>Current question</h2>
+            <div id="revealState" class="muted"></div>
+            <pre id="question"></pre>
+        </div>
+
+        <div id="lockoutBanner" class="panel" style="display:none;">
+            <span class="lockout">Buzz lockout active</span>
+            <span id="lockoutCountdown" class="muted"></span>
+        </div>
+    </div>
+
+    <script>
+        const socket = io();
+        let myUsername = "";
+        let myRole = "player";
+        let lockoutTimer = null;
+        let lockoutRemaining = 0;
+
+        function onFormatChange() {
+            const format = document.getElementById("format").value;
+            document.getElementById("tournamentBlock").style.display = (format === "OSSAA") ? "inline-block" : "none";
+        }
+        function onPlayerCountChange() {
+            const mode = document.getElementById("playerCount").value;
+            document.getElementById("teamSetup").style.display = (mode === "teams") ? "flex" : "none";
+        }
+
+        function submitSetup() {
+            const setupData = collectSetup();
+            socket.emit("setup_complete", setupData);
+        }
+
+        function loadPacket() {
+            const setupData = collectSetup();
+            if (!setupData.format) return alert("Select a format first!");
+            socket.emit("setup_complete", setupData);
+        }
+
+        function collectSetup() {
+            return {
+                format: document.getElementById("format").value,
+                playerCount: document.getElementById("playerCount").value,
+                tournamentType: document.getElementById("tournamentType").value,
+                room: document.getElementById("room").value,
+                username: document.getElementById("username").value,
+                role: document.getElementById("role").value,
+                teamName: document.getElementById("teamName").value,
+                roster: document.getElementById("roster").value
+                    ? document.getElementById("roster").value.split(",").map(r => r.trim())
+                    : []
+            };
+        }
+
+        function joinGame() {
+            myUsername = document.getElementById("username").value;
+            myRole = document.getElementById("role").value;
+            if (!myUsername) return alert("Enter a username!");
+            socket.emit("join", {username: myUsername, role: myRole});
+            document.getElementById("setup").style.display = "none";
+            document.getElementById("game").style.display = "block";
+        }
+
+        // Gameplay controls
+        function buzz() { socket.emit("buzz", {username: myUsername}); }
+        function answer(correct) { socket.emit("answer", {username: myUsername, correct}); }
+        function nextQuestion() { socket.emit("next_question", {username: myUsername}); }
+        function revealNextClue() { socket.emit("reveal_next_clue", {username: myUsername}); }
+
+        // Socket handlers
+        socket.on("setup_ack", data => { alert(data.message); });
+
+        socket.on("player_list", data => {
+            let html = "<ul>";
+            data.players.forEach(player => {
+                if (player === data.moderator) {
+                    html += `<li><strong>⭐ ${player} (Moderator)</strong></li>`;
+                } else {
+                    html += `<li>${player}</li>`;
+                }
+            });
+            html += "</ul>";
+            document.getElementById("players").innerHTML = html;
+        });
+
+        socket.on("score_update", scores => {
+            let html = "<table><tr><th>Player</th><th>Score</th></tr>";
+            for (const [player, score] of Object.entries(scores)) {
+                html += `<tr><td>${player}</td><td>${score}</td></tr>`;
+            }
+            html += "</table>";
+            document.getElementById("scores").innerHTML = html;
+        });
+
+        socket.on("new_question", data => {
+            document.getElementById("question").textContent = data.question || "";
+        });
+
+        socket.on("reveal_state", data => {
+            const txt = `Clues revealed: ${Math.max(0, data.revealed + 1)} of ${data.total}`;
+            document.getElementById("revealState").textContent = txt;
+        });
+
+        socket.on("buzzed", data => {
+            alert(`${data.player} buzzed!`);
+            startLockoutTimer(data.lockout);
+        });
+
+        socket.on("answer_result", data => {
+            const msg = data.result === "correct" ? `${data.player} is correct! +10`
+                                                  : `${data.player} is wrong. -5`;
+            alert(msg);
+            stopLockoutTimer();
+        });
+
+        socket.on("lockout_active", data => {
+            startLockoutTimer(data.remaining);
+        });
+
+        socket.on("error", data => { alert(data.message); });
+
+        // Lockout UI
+        function startLockoutTimer(seconds) {
+            lockoutRemaining = Math.max(0, Math.round(seconds));
+            document.getElementById("buzzBtn").disabled = true;
+            document.getElementById("lockoutBanner").style.display = "block";
+            updateLockoutCountdown();
+            if (lockoutTimer) clearInterval(lockoutTimer);
+            lockoutTimer = setInterval(() => {
+                lockoutRemaining -= 1;
+                updateLockoutCountdown();
+                if (lockoutRemaining <= 0) { stopLockoutTimer(); }
+            }, 1000);
+        }
+        function updateLockoutCountdown() {
+            document.getElementById("lockoutCountdown").textContent =
+                lockoutRemaining > 0 ? `Buzzing resumes in ${lockoutRemaining}s` : "Buzzing resumed";
+        }
+        function stopLockoutTimer() {
+            if (lockoutTimer) clearInterval(lockoutTimer);
+            lockoutTimer = null;
+            document.getElementById("lockoutBanner").style.display = "none";
+            document.getElementById("buzzBtn").disabled = false;
+        }
+    </script>
+</body>
+</html>

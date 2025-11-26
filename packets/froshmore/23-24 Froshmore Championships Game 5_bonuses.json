@@ -1,0 +1,1397 @@
+{
+  "format": "Quizbowl",
+  "round": "23-24 Froshmore Championships Game 5_bonuses",
+  "type": "bonus",
+  "questions": [
+    {
+      "id": "f1",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Guatemala City",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "END OF FIRST HALF",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "The score at the end of the first half is",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team one ____________ Team two ____________",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Are there any questions?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "(pause and look at the coaches if there are no protests proceed)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f7",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "\"Coaches... you may substitute if you wish.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f8",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "3",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f9",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "FROSHMORE CHAMPIONSHIPS Round Five",
+          "answer": "OAAC 2023-2024"
+        }
+      ]
+    },
+    {
+      "id": "f10",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 13. MATH COMPUTATION: The altitude of an equilateral triangle is 10√3 inches. What is the",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f11",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "perimeter of the triangle in inches?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f12",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (Perimeter = ) 60 (inches)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f13",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS COMPUTATION: A square is inscribed in a circle with area 36π square feet. What is",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f14",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "the area of the square in square feet?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f15",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (Area = ) 72 (square feet)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f16",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 14. SOCIAL STUDIES: The town of Oak Ridge was created to support this project. This",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f17",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "project included research conducted by Enrico Fermi at * Los Alamos. What is this",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f18",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "project, led by Robert Oppenheimer, which resulted in the creation of the Atomic Bomb?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f19",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Manhattan (Project)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f20",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: Due to theatrical scheduling, J. Robert Oppenheimer is now closely associated with",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f21",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Barbie, which is a fashion doll designed by what woman, whose ghost appears in a 2023 film?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f22",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (Ruth) Handler",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f23",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 15. FINE ARTS: A prototypical example of this artform was called daguerreotype. Alfred",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f24",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Steiglitz and Anne Leibovitz were both influential in this artform, which saw the *",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f25",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "F/64 [F stop 64] movement. What is this artform, which includes the Dorothea Lange work",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f26",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Migrant Mother?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f27",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Photography [accept obvious logical equivalents]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f28",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: What photographer of Monolith, the Face of Half Dome and many other photographs of",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f29",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Yosemite National Park founded the F/64 movement?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f30",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (Ansel) Adams",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f31",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 16. SCIENCE: The Lewis definition of this relates to accepting an electron pair.* Another",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f32",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "definition is a compound that produces free hydrogen ions. What is this type of substance that",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f33",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "gives citrus fruit and sour candies their sour taste?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f34",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Acid(s)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f35",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: This acid is a major component added to soft drinks such as Coca-Cola to provide a",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f36",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "sour taste. Its formula is H3PO4. [read as H 3 P O 4]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f37",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Phosphoric Acid [ FOSS-for-ic ]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f38",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 17. MATH COMPUTATION: Carla scored 36 points in three point shots. If her shooting percentage",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f39",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "for these",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f40",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "shots was forty percent, how many three-point shots did she take?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f41",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Thirty",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f42",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS COMPUTATION: Carla also made one-third of her two-point shots and 80 percent of",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f43",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "her ten free throws. Along with her 36 points in three-point shots, her total points scored was 54.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f44",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "How many two point shots did she shoot?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f45",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 15",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f46",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "4",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f47",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "FROSHMORE CHAMPIONSHIPS Round Five",
+          "answer": "OAAC 2023-2024"
+        }
+      ]
+    },
+    {
+      "id": "f48",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 18. POP CULTURE: This 1955 Disney film was part of the National Film Registry by the",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f49",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Library of Congress in 2023.* It was Disney’s first film to be released in regular and wide",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f50",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "screen formats. Name the animated classic love story between a spoiled cocker spaniel and a",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f51",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "mutt.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f52",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Lady and the Tramp",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f53",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: The film includes an iconic kiss including which food?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f54",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: spaghetti",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f55",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "END OF THIRD QUARTER",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f56",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "The score at the end of the third quarter is",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f57",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team one ____________ Team two ____________",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f58",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Are there any questions?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f59",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "(pause and look at the coaches if there are no protests proceed)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f60",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "\"Coaches... you may substitute if you wish.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f61",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 19. SOCIAL STUDIES: This battle coincided with the Comte de Grasse’s victory at the",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f62",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Battle of the Chesapeake. The “Celebrated March” preceded this battle, which",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f63",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "included the capture of Redoubt No. 10 by * Alexander Hamilton. What is this battle, the",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f64",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "final battle of the American Revolutionary War?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f65",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (Battle of) Yorktown",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f66",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: What British general sent an aide to surrender after the Battle of Yorktown?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f67",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (Charles) Cornwallis",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f68",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 20. HUMANITIES: This work includes the story of the Seven Labors of Rostam. Two-thirds",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f69",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "of this work is dedicated to retelling the stories of various heroes, a section which",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f70",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ends with Alexander the Great’s Conquest of the * setting of this work. What is this “Book",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f71",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "of Kings” by Ferdowsi, the national epic of Iran?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f72",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Shahnameh",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f73",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: Shahnameh features over 50,000 distichs, which are also known by what term, which",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f74",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "describes a two-line rhyming verse?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f75",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Couplet",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f76",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 21. MATH COMPUTATION: There are sixteen red marbles, fifteen black marbles, and nineteen",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f77",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "white marbles in a bag. If one marble is chosen at random from the bag, what is the probability,",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f78",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "as a percent, that the marble is NOT white?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f79",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 62(%)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f80",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS COMPUTATION: In a standard 52-card deck with four suits of diamonds, hearts,",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f81",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "clubs, and spades, what are the reduced ODDS AGAINST choosing one card at random and that",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f82",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "card is a RED KING?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f83",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 25 to 1",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f84",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "5",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f85",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "FROSHMORE CHAMPIONSHIPS Round Five",
+          "answer": "OAAC 2023-2024"
+        }
+      ]
+    },
+    {
+      "id": "f86",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 22. SCIENCE: While American football has been linked to traumatic brain injury, this",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f87",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "practice from the other football has been linked to decline over time without",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f88",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "noticeable trauma.* Research presented in November 2023 to the Radiological Society of",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f89",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "America showed measurable decline in brain function that correlated with the frequency of",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f90",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "performing this soccer maneuver. What is this practice",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f91",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Heading the Ball [accept reasonable descriptions of this action]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f92",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: Concern was expressed in the research presentation that the changes in brain",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f93",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "microstructure could lead to a susceptibility to this condition in later life. What is this term for",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f94",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "an impaired ability to remember, think, or make decisions that interferes with doing everyday",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f95",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "activities?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f96",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Dementia",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f97",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 23. SOCIAL STUDIES: This man petitioned his father to change Imperial marriage rules to",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f98",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "allow him to marry the actress Theodora. This man survived the * Nika Revolt and",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f99",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "funded the construction of the Hagia Sophia. Who is this Byzantine Emperor, who led the empire",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f100",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "to its territorial height?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f101",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Justinian I [also accept Justinian the Great]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f102",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: Justinian’s Byzantine Empire had a long protracted war with what Persian empire led",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f103",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "by Khosrow Anushirawan?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f104",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Sassanid (Empire) [also accept Sasanian Empire]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f105",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 24. CURRENT EVENTS: This animal has been listed as a threatened species because",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f106",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "impacts on its habitats* by climate change. The animal resembles a small bear and mostly",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f107",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "resides in Canada and Alaska. Name the animal who shares its name with a Marvel superhero.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f108",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: wolverine",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f109",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: Wolverines are often found in the Rocky Mountains and which other mountain range?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f110",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Cascade Mountains",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f111",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "END OF GAME",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f112",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "The score at the end of the game is",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f113",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team one _____",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f114",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team two _____",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f115",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "If there is a tie allow for substitution before you ask the tie-breaker questions. Read all 5",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f116",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "questions to determine a winner.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f117",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "6",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f118",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "FROSHMORE CHAMPIONSHIPS Round Five",
+          "answer": "OAAC 2023-2024"
+        }
+      ]
+    },
+    {
+      "id": "f119",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Tie Breakers",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f120",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "SOCIAL STUDIES: The Tlatelolco Massacre and Munich Massacre occurred around what",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f121",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "athletic events which occur every 4 years?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f122",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Summer Olympics [prompt on Olympics]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f123",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "SCIENCE: I am positive that you will see the negatives of these particles.* When they are loose",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f124",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "in a solution, the solution will conduct electricity. What is the name for these charged particles?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f125",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Ions",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f126",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "POP CULTURE: This Christmas song topped the Billboard Hot 100 chart for the first time since",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f127",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "it was released in 1958. A new music video of the song was released in 2023. Name the song",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f128",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "featured in the film Home Alone.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f129",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Rockin’ Around the Christmas Tree",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f130",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "FINE ARTS: What Italian Renaissance painter created Sacred and Profane Love and Venus of",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f131",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Urbino?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f132",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Titian [also accept Tiziano Vecelli]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f133",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATHEMATICS COMPUTATION: Given parallelogram RUST. The measure of angle R is 70",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f134",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "degrees, and the measure of angle T is 110 degrees. What are the measures of angles U and S in",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f135",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "degrees?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f136",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: m U = 110 and m S = 70 (degrees)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f137",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Are there an∠y questions? ( pa∠use and look at the coaches if there are no protests proceed)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f138",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "This ends the game. \"",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f139",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "7",
+          "answer": "MISSING"
+        }
+      ]
+    }
+  ]
+}

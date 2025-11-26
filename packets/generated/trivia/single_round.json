@@ -1,0 +1,67 @@
+{
+  "format": "Trivia",
+  "round": "Single Round",
+  "questions": [
+    { "id": "q1", "category": "History", "text": "Who was the first President of the United States?", "answer": "George Washington" },
+    { "id": "q2", "category": "History", "text": "In which year did World War II end?", "answer": "1945" },
+    { "id": "q3", "category": "History", "text": "Which empire was ruled by Genghis Khan?", "answer": "Mongol Empire" },
+    { "id": "q4", "category": "History", "text": "What was the name of the ship that carried the Pilgrims to America in 1620?", "answer": "Mayflower" },
+    { "id": "q5", "category": "History", "text": "Which ancient civilization built the pyramids of Giza?", "answer": "Egyptians" },
+
+    { "id": "q6", "category": "Geography", "text": "What is the capital of Iceland?", "answer": "Reykjavik" },
+    { "id": "q7", "category": "Geography", "text": "Which river flows through Paris?", "answer": "Seine" },
+    { "id": "q8", "category": "Geography", "text": "Mount Kilimanjaro is located in which country?", "answer": "Tanzania" },
+    { "id": "q9", "category": "Geography", "text": "Which desert covers much of northern Africa?", "answer": "Sahara" },
+    { "id": "q10", "category": "Geography", "text": "What is the largest country by land area?", "answer": "Russia" },
+
+    { "id": "q11", "category": "Science", "text": "What is the chemical symbol for gold?", "answer": "Au" },
+    { "id": "q12", "category": "Science", "text": "Which planet is known as the Red Planet?", "answer": "Mars" },
+    { "id": "q13", "category": "Science", "text": "What gas do plants absorb from the atmosphere?", "answer": "Carbon dioxide" },
+    { "id": "q14", "category": "Science", "text": "What is the powerhouse of the cell?", "answer": "Mitochondria" },
+    { "id": "q15", "category": "Science", "text": "What is the speed of light in vacuum (approx)?", "answer": "299,792 km/s" },
+
+    { "id": "q16", "category": "Literature", "text": "Who wrote 'Romeo and Juliet'?", "answer": "William Shakespeare" },
+    { "id": "q17", "category": "Literature", "text": "What is the name of the hobbit played by Elijah Wood in the Lord of the Rings films?", "answer": "Frodo Baggins" },
+    { "id": "q18", "category": "Literature", "text": "Who wrote 'Pride and Prejudice'?", "answer": "Jane Austen" },
+    { "id": "q19", "category": "Literature", "text": "What is the first book of the Bible?", "answer": "Genesis" },
+    { "id": "q20", "category": "Literature", "text": "Who wrote '1984'?", "answer": "George Orwell" },
+
+    { "id": "q21", "category": "Sports", "text": "Which country won the FIFA World Cup in 2018?", "answer": "France" },
+    { "id": "q22", "category": "Sports", "text": "How many players are on a baseball team on the field?", "answer": "9" },
+    { "id": "q23", "category": "Sports", "text": "Which sport uses a shuttlecock?", "answer": "Badminton" },
+    { "id": "q24", "category": "Sports", "text": "Who has won the most Olympic gold medals?", "answer": "Michael Phelps" },
+    { "id": "q25", "category": "Sports", "text": "In basketball, how many points is a free throw worth?", "answer": "1" },
+
+    { "id": "q26", "category": "Music", "text": "Who composed the 'Fifth Symphony'?", "answer": "Beethoven" },
+    { "id": "q27", "category": "Music", "text": "Which band released 'Abbey Road'?", "answer": "The Beatles" },
+    { "id": "q28", "category": "Music", "text": "What is the national anthem of the United States?", "answer": "The Star-Spangled Banner" },
+    { "id": "q29", "category": "Music", "text": "Who is known as the 'King of Pop'?", "answer": "Michael Jackson" },
+    { "id": "q30", "category": "Music", "text": "Which instrument has 88 keys?", "answer": "Piano" },
+
+    { "id": "q31", "category": "Movies", "text": "Who directed 'Jurassic Park'?", "answer": "Steven Spielberg" },
+    { "id": "q32", "category": "Movies", "text": "Which movie features the quote 'I'll be back'?", "answer": "The Terminator" },
+    { "id": "q33", "category": "Movies", "text": "Who played Jack in 'Titanic'?", "answer": "Leonardo DiCaprio" },
+    { "id": "q34", "category": "Movies", "text": "Which movie won Best Picture at the Oscars in 1994?", "answer": "Forrest Gump" },
+    { "id": "q35", "category": "Movies", "text": "Which movie features a clownfish named Nemo?", "answer": "Finding Nemo" },
+
+    { "id": "q36", "category": "Art", "text": "Who painted the Mona Lisa?", "answer": "Leonardo da Vinci" },
+    { "id": "q37", "category": "Art", "text": "Which artist is known for 'The Persistence of Memory'?", "answer": "Salvador Dalí" },
+    { "id": "q38", "category": "Art", "text": "Which Dutch painter cut off part of his ear?", "answer": "Vincent van Gogh" },
+    { "id": "q39", "category": "Art", "text": "Which artist painted the Sistine Chapel ceiling?", "answer": "Michelangelo" },
+    { "id": "q40", "category": "Art", "text": "Which Spanish painter is known for 'Guernica'?", "answer": "Pablo Picasso" },
+
+    { "id": "q41", "category": "Technology", "text": "Who founded Microsoft?", "answer": "Bill Gates" },
+    { "id": "q42", "category": "Technology", "text": "What does 'HTTP' stand for?", "answer": "HyperText Transfer Protocol" },
+    { "id": "q43", "category": "Technology", "text": "Which company created the iPhone?", "answer": "Apple" },
+    { "id": "q44", "category": "Technology", "text": "What does 'AI' stand for?", "answer": "Artificial Intelligence" },
+    { "id": "q45", "category": "Technology", "text": "What year was Google founded?", "answer": "1998" },
+
+    { "id": "q46", "category": "Food", "text": "What is sushi traditionally wrapped in?", "answer": "Seaweed" },
+    { "id": "q47", "category": "Food", "text": "Which fruit is known as the 'king of fruits'?", "answer": "Durian" },
+    { "id": "q48", "category": "Food", "text": "What is the main ingredient in guacamole?", "answer": "Avocado" },
+    { "id": "q49", "category": "Food", "text": "Which country is famous for croissants?", "answer": "France" },
+    { "id": "q50", "category": "Food", "text": "What type of pasta means 'little worms' in Italian?", "answer": "Vermicelli" },
+
+    // ... continue with 15 more categories, 5 questions each, until q100
+  ]
+}

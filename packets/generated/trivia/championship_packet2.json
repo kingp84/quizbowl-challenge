@@ -1,0 +1,125 @@
+{
+  "format": "Trivia",
+  "round": "Championship Packet 2 - Mastermind Showdown",
+  "questions": [
+    { "id": "q1", "category": "Science", "text": "What is the chemical symbol for silver?", "answer": "Ag" },
+    { "id": "q2", "category": "Science", "text": "Which planet is known as the Morning Star?", "answer": "Venus" },
+    { "id": "q3", "category": "Science", "text": "What gas do humans exhale?", "answer": "Carbon dioxide" },
+    { "id": "q4", "category": "Science", "text": "What is the hardest natural substance?", "answer": "Diamond" },
+    { "id": "q5", "category": "Science", "text": "Who developed the laws of motion?", "answer": "Isaac Newton" },
+
+    { "id": "q6", "category": "Literature", "text": "Who wrote 'Hamlet'?", "answer": "William Shakespeare" },
+    { "id": "q7", "category": "Literature", "text": "Who wrote 'Jane Eyre'?", "answer": "Charlotte Brontë" },
+    { "id": "q8", "category": "Literature", "text": "Who wrote 'Animal Farm'?", "answer": "George Orwell" },
+    { "id": "q9", "category": "Literature", "text": "Who wrote 'The Catcher in the Rye'?", "answer": "J.D. Salinger" },
+    { "id": "q10", "category": "Literature", "text": "Who wrote 'War and Peace'?", "answer": "Leo Tolstoy" },
+
+    { "id": "q11", "category": "Sports", "text": "Which country won the FIFA World Cup in 2014?", "answer": "Germany" },
+    { "id": "q12", "category": "Sports", "text": "How many players are on a basketball team on the court?", "answer": "5" },
+    { "id": "q13", "category": "Sports", "text": "Which sport uses a puck?", "answer": "Ice Hockey" },
+    { "id": "q14", "category": "Sports", "text": "Who has won the most Grand Slam tennis titles?", "answer": "Novak Djokovic" },
+    { "id": "q15", "category": "Sports", "text": "Which sport is played at the Masters Tournament?", "answer": "Golf" },
+
+    { "id": "q16", "category": "Music", "text": "Who composed the Ninth Symphony?", "answer": "Ludwig van Beethoven" },
+    { "id": "q17", "category": "Music", "text": "Which band released 'Dark Side of the Moon'?", "answer": "Pink Floyd" },
+    { "id": "q18", "category": "Music", "text": "Who is known as the 'Queen of Soul'?", "answer": "Aretha Franklin" },
+    { "id": "q19", "category": "Music", "text": "Which instrument has six strings?", "answer": "Guitar" },
+    { "id": "q20", "category": "Music", "text": "Who composed 'Swan Lake'?", "answer": "Pyotr Ilyich Tchaikovsky" },
+
+    { "id": "q21", "category": "Movies", "text": "Who directed 'Inception'?", "answer": "Christopher Nolan" },
+    { "id": "q22", "category": "Movies", "text": "Which movie features the quote 'May the Force be with you'?", "answer": "Star Wars" },
+    { "id": "q23", "category": "Movies", "text": "Who played Forrest in 'Forrest Gump'?", "answer": "Tom Hanks" },
+    { "id": "q24", "category": "Movies", "text": "Which movie won Best Picture at the Oscars in 2001?", "answer": "Gladiator" },
+    { "id": "q25", "category": "Movies", "text": "Which movie features a wizard named Gandalf?", "answer": "The Lord of the Rings" },
+
+    { "id": "q26", "category": "Art", "text": "Who painted 'The Starry Night'?", "answer": "Vincent van Gogh" },
+    { "id": "q27", "category": "Art", "text": "Which artist is known for 'Campbell's Soup Cans'?", "answer": "Andy Warhol" },
+    { "id": "q28", "category": "Art", "text": "Which artist painted 'The Last Supper'?", "answer": "Leonardo da Vinci" },
+    { "id": "q29", "category": "Art", "text": "Which artist sculpted 'David'?", "answer": "Michelangelo" },
+    { "id": "q30", "category": "Art", "text": "Which artist painted 'Water Lilies'?", "answer": "Claude Monet" },
+
+    { "id": "q31", "category": "Technology", "text": "Who founded Tesla Motors?", "answer": "Martin Eberhard and Marc Tarpenning" },
+    { "id": "q32", "category": "Technology", "text": "Which company created the Android operating system?", "answer": "Google" },
+    { "id": "q33", "category": "Technology", "text": "What does 'URL' stand for?", "answer": "Uniform Resource Locator" },
+    { "id": "q34", "category": "Technology", "text": "What does 'CPU' stand for?", "answer": "Central Processing Unit" },
+    { "id": "q35", "category": "Technology", "text": "Which company created the PlayStation console?", "answer": "Sony" },
+
+    { "id": "q36", "category": "Food", "text": "What is the main ingredient in hummus?", "answer": "Chickpeas" },
+    { "id": "q37", "category": "Food", "text": "Which cheese is traditionally used on pizza?", "answer": "Mozzarella" },
+    { "id": "q38", "category": "Food", "text": "Which nut is used to make marzipan?", "answer": "Almond" },
+    { "id": "q39", "category": "Food", "text": "Which fruit is dried to make prunes?", "answer": "Plum" },
+    { "id": "q40", "category": "Food", "text": "Which spice is used in curry and gives it a yellow color?", "answer": "Turmeric" },
+
+    { "id": "q41", "category": "Mythology", "text": "Who is the Greek goddess of love and beauty?", "answer": "Aphrodite" },
+    { "id": "q42", "category": "Mythology", "text": "Who is the Roman goddess of love?", "answer": "Venus" },
+    { "id": "q43", "category": "Mythology", "text": "Who is the Greek god of the sea?", "answer": "Poseidon" },
+    { "id": "q44", "category": "Mythology", "text": "Who is the Roman god of war?", "answer": "Mars" },
+    { "id": "q45", "category": "Mythology", "text": "Who is the Greek god of wine?", "answer": "Dionysus" },
+
+    { "id": "q46", "category": "Animals", "text": "Which bird is the fastest in flight?", "answer": "Peregrine Falcon" },
+    { "id": "q47", "category": "Animals", "text": "Which mammal lays eggs?", "answer": "Platypus" },
+    { "id": "q48", "category": "Animals", "text": "Which animal is the largest land carnivore?", "answer": "Polar Bear" },
+    { "id": "q49", "category": "Animals", "text": "Which animal is known for building dams?", "answer": "Beaver" },
+    { "id": "q50", "category": "Animals", "text": "Which animal is the largest bird?", "answer": "Ostrich" },
+
+    { "id": "q51", "category": "Space", "text": "What is the hottest planet in our solar system?", "answer": "Venus" },
+    { "id": "q52", "category": "Space", "text": "Which planet has the Great Red Spot?", "answer": "Jupiter" },
+    { "id": "q53", "category": "Space", "text": "What is the name of Earth's natural satellite?", "answer": "Moon" },
+    { "id": "q54", "category": "Space", "text": "Which planet is tilted on its side?", "answer": "Uranus" },
+    { "id": "q55", "category": "Space", "text": "Which planet is farthest from the Sun?", "answer": "Neptune" },
+
+    { "id": "q56", "category": "Politics", "text": "Who was the first female Prime Minister of the UK?", "answer": "Margaret Thatcher" },
+    { "id": "q57", "category": "Politics", "text": "Which U.S. president issued the Emancipation Proclamation?", "answer": "Abraham Lincoln" },
+    { "id": "q58", "category": "Politics", "text": "Who was the first president of Russia after the Soviet Union?", "answer": "Boris Yeltsin" },
+    { "id": "q59", "category": "Politics", "text": "Which U.S. president signed the Affordable Care Act?", "answer": "Barack Obama" },
+    { "id": "q60", "category": "Politics", "text": "Who was the first president of France's Fifth Republic?", "answer": "Charles de Gaulle" },
+
+    { "id": "q61", "category": "Language", "text": "What is the official language of Italy?", "answer": "Italian" },
+    { "id": "q62", "category": "Language", "text": "What is the official language of Mexico?", "answer": "Spanish" },
+    { "id": "q63", "category": "Language", "text": "What is the official language of Canada?", "answer": "English and French" },
+    { "id": "q64", "category": "Language", "text": "What is the official language of India?", "answer": "Hindi and English" },
+    { "id": "q65", "category": "Language", "text": "What is the official language of South Korea?", "answer": "Korean" },
+
+    { "id": "q66", "category": "Business", "text": "Who founded Walmart?", "answer": "Sam Walton" },
+    { "id": "q67", "category": "Business", "text": "Who founded Nike?", "answer": "Phil Knight and Bill Bowerman" },
+    { "id": "q68", "category": "Business", "text": "Who founded Starbucks?", "answer": "Jerry Baldwin, Zev Siegl, and Gordon Bowker" },
+    { "id": "q69", "category": "Business", "text": "Who founded McDonald's?", "answer": "Richard and Maurice McDonald (expanded by Ray Kroc)" },
+    { "id": "q70", "category": "Business", "text": "Who founded Disney?", "answer": "Walt Disney and Roy O. Disney" },
+
+    { "id": "q71", "category": "Religion", "text": "What is the holy book of Hinduism?", "answer": "Vedas" },
+    { "id": "q72", "category": "Religion", "text": "What is the holy book of Buddhism?", "answer": "Tripitaka" },
+    { "id": "q73", "category": "Religion", "text": "Who is the founder of Jainism?", "answer": "Mahavira" },
+    { "id": "q74", "category": "Religion", "text": "What is the place of worship for Muslims?", "answer": "Mosque" },
+    { "id": "q75", "category": "Religion", "text": "What is the place of worship for Christians?", "answer": "Church" },
+
+    { "id": "q76", "category": "Pop Culture", "text": "Which actor played Harry Potter in the film series?", "answer": "Daniel Radcliffe" },
+    { "id": "q77", "category": "Pop Culture", "text": "Which TV show features the character Sheldon Cooper?", "answer": "The Big Bang Theory" },
+    { "id": "q78", "category": "Pop Culture", "text": "Which movie features the character Jack Sparrow?", "answer": "Pirates of the Caribbean" },
+    { "id": "q79", "category": "Pop Culture", "text": "Which singer is known as 'Queen Bey'?", "answer": "Beyoncé" },
+    { "id": "q80", "category": "Pop Culture", "text": "Which TV show features the character Ross Geller?", "answer": "Friends" },
+
+    { "id": "q81", "category": "Geography", "text": "What is the capital of France?", "answer": "Paris" },
+    { "id": "q82", "category": "Geography", "text": "What is the capital of Japan?", "answer": "Tokyo" },
+    { "id": "q83", "category": "Geography", "text": "What is the capital of Australia?", "answer": "Canberra" },
+    { "id": "q84", "category": "Geography", "text": "What is the capital of Canada?", "answer": "Ottawa" },
+    { "id": "q85", "category": "Geography", "text": "What is the capital of Brazil?", "answer": "Brasília" },
+
+    { "id": "q86", "category": "History", "text": "Who was the first emperor of China?", "answer": "Qin Shi Huang" },
+    { "id": "q87", "category": "History", "text": "Which country was led by Adolf Hitler?", "answer": "Germany" },
+    { "id": "q88", "category": "History", "text": "Which ancient civilization built the pyramids?", "answer": "Egyptians" },
+    { "id": "q89", "category": "History", "text": "Which empire was ruled by Julius Caesar?", "answer": "Roman Empire" },
+    { "id": "q90", "category": "History", "text": "Who was assassinated in Dallas in 1963?", "answer": "John F. Kennedy" },
+
+    { "id": "q91", "category": "Philosophy", "text": "Who wrote 'Critique of Pure Reason'?", "answer": "Immanuel Kant" },
+    { "id": "q92", "category": "Philosophy", "text": "Who is known as the father of empiricism?", "answer": "John Locke" },
+    { "id": "q93", "category": "Philosophy", "text": "Who wrote 'Thus Spoke Zarathustra'?", "answer": "Friedrich Nietzsche" },
+    { "id": "q94", "category": "Philosophy", "text": "Which philosopher is associated with the allegory of the cave?", "answer": "Plato" },
+    { "id": "q95", "category": "Philosophy", "text": "Who wrote 'Leviathan'?", "answer": "Thomas Hobbes" },
+
+    { "id": "q96", "category": "Movies", "text": "Which movie won Best Picture at the Oscars in 2003?", "answer": "Chicago" },
+    { "id": "q97", "category": "Sports", "text": "Which sport is played at Wimbledon?", "answer": "Tennis" },
+    { "id": "q98", "category": "Music", "text": "Who composed 'The Four Seasons'?", "answer": "Antonio Vivaldi" },
+    { "id": "q99", "category": "Art", "text": "Which artist is known for 'Guernica'?", "answer": "Pablo Picasso" },
+    { "id": "q100", "category": "Science", "text": "What is the chemical symbol for oxygen?", "answer": "O" }
+  ]
+}

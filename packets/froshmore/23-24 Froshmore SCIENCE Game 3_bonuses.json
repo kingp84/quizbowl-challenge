@@ -1,0 +1,317 @@
+{
+  "format": "Quizbowl",
+  "round": "23-24 Froshmore SCIENCE Game 3_bonuses",
+  "type": "bonus",
+  "questions": [
+    {
+      "id": "f1",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: “I’m Nobody, Who are You?”",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "END OF GAME",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "The score at the end of the game is",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team one _____",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team two _____",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "If there is a tie allow for substitution before you ask the tie-breaker questions.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f7",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "6",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f8",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "FROSHMORE SCIENCE 23-24 Round Three",
+          "answer": "OAAC 2023-2024"
+        }
+      ]
+    },
+    {
+      "id": "f9",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Tie Breakers",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f10",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "SCIENCE: Adopted in 1960 to replace the CGS system* by the General Conference on Weights",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f11",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "and Measures, it was designed to make measurement easier across the SCIENCEs. What is this",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f12",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "current measurement system that uses metric measurements?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f13",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: International System (of Units) [ accept System International or SI ]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f14",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "SCIENCE: This branch of chemistry is concerned with compounds containing carbon atoms.* Its",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f15",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "name comes from the fact that many of the compounds used and studied came from living things",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f16",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "before they were synthesized in the lab.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f17",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Organic (Chemistry)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f18",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "SCIENCE: This device uses induction to increase or decrease the voltage of an electric current.*",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f19",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "These can often be seen mounted on power poles, separating the transmission current from the",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f20",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "home current. What is this device that is used to reduce losses in electric transmission lines?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f21",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Transformer",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f22",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "SCIENCE: Wood, Cotton, Beef, and wind power are all considered this, a raw material that can",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f23",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "be replenished within a reasonable time. Counter examples include fossil fuels and mineral",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f24",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "resources.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f25",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Renewable Resource",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f26",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "SCIENCE: These structures are the primary organ in multicellular land animals for gas",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f27",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "exchange with the atmosphere. What are these structures?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f28",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Lungs",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f29",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Are there any questions? ( pause and look at the coaches if there are no protests proceed)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f30",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "This ends the game. \"",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f31",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "7",
+          "answer": "MISSING"
+        }
+      ]
+    }
+  ]
+}

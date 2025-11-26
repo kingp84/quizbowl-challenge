@@ -1,0 +1,267 @@
+{
+  "format": "Quizbowl",
+  "round": "23-24 Froshmore MATH Game 1 _bonuses",
+  "type": "bonus",
+  "questions": [
+    {
+      "id": "f1",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Mexican-American (War)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "END OF GAME",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "The score at the end of the game is",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team one _____",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team two _____",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "If there is a tie allow for substitution before you ask the tie-breaker questions.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f7",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Tie Breakers",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f8",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATH COMPUTATION: Evaluate (5x – 3)2 [READ evaluate five X minus three, quantity",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f9",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "squared]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f10",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 25x2 – 30x + 9",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f11",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATH: What is the term for the set of all the second coordinates in a relation?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f12",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Range",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f13",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATH COMPUTATION: Give the prime factorization of 288. Use exponents as necessary.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f14",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 25 x 32 [may also say 32 x 25]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f15",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATH COMPUTATION: What are the factors of 81d2 – 169?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f16",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (9d + 13)(9d – 13) (or reversed order)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f17",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "[May say nine X plus thirteen times nine X minus thirteen OR may say Quantity nine X plus",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f18",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "thirteen times the quantity nine X minus thirteen]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f19",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "6",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f20",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "FROSHMORE MATH Round One",
+          "answer": "OAAC 2023-2024"
+        }
+      ]
+    },
+    {
+      "id": "f21",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATH COMPUTATION:. How many sides does a regular polygon have if each exterior angle is",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f22",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "45 degrees?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f23",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 8",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f24",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Are there any questions? ( pause and look at the coaches if there are no protests proceed)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f25",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "This ends the game. \"",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f26",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "7",
+          "answer": "MISSING"
+        }
+      ]
+    }
+  ]
+}

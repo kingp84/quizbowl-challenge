@@ -1,0 +1,125 @@
+{
+  "format": "Trivia",
+  "round": "Championship Packet 1 - Knowledge Gauntlet",
+  "questions": [
+    { "id": "q1", "category": "Science", "text": "What is the chemical symbol for gold?", "answer": "Au" },
+    { "id": "q2", "category": "Science", "text": "Which planet is known as the Red Planet?", "answer": "Mars" },
+    { "id": "q3", "category": "Science", "text": "What gas do plants absorb from the atmosphere?", "answer": "Carbon dioxide" },
+    { "id": "q4", "category": "Science", "text": "What is the powerhouse of the cell?", "answer": "Mitochondria" },
+    { "id": "q5", "category": "Science", "text": "Which scientist proposed the theory of relativity?", "answer": "Albert Einstein" },
+
+    { "id": "q6", "category": "Literature", "text": "Who wrote 'Romeo and Juliet'?", "answer": "William Shakespeare" },
+    { "id": "q7", "category": "Literature", "text": "Who wrote 'Pride and Prejudice'?", "answer": "Jane Austen" },
+    { "id": "q8", "category": "Literature", "text": "Who wrote '1984'?", "answer": "George Orwell" },
+    { "id": "q9", "category": "Literature", "text": "Who wrote 'The Great Gatsby'?", "answer": "F. Scott Fitzgerald" },
+    { "id": "q10", "category": "Literature", "text": "Who wrote 'Moby-Dick'?", "answer": "Herman Melville" },
+
+    { "id": "q11", "category": "Sports", "text": "Which country won the FIFA World Cup in 2018?", "answer": "France" },
+    { "id": "q12", "category": "Sports", "text": "How many players are on a baseball team on the field?", "answer": "9" },
+    { "id": "q13", "category": "Sports", "text": "Which sport uses a shuttlecock?", "answer": "Badminton" },
+    { "id": "q14", "category": "Sports", "text": "Who has won the most Olympic gold medals?", "answer": "Michael Phelps" },
+    { "id": "q15", "category": "Sports", "text": "Which sport is played at Wimbledon?", "answer": "Tennis" },
+
+    { "id": "q16", "category": "Music", "text": "Who composed the Fifth Symphony?", "answer": "Ludwig van Beethoven" },
+    { "id": "q17", "category": "Music", "text": "Which band released 'Abbey Road'?", "answer": "The Beatles" },
+    { "id": "q18", "category": "Music", "text": "Who is known as the 'King of Pop'?", "answer": "Michael Jackson" },
+    { "id": "q19", "category": "Music", "text": "Which instrument has 88 keys?", "answer": "Piano" },
+    { "id": "q20", "category": "Music", "text": "Who composed 'The Four Seasons'?", "answer": "Antonio Vivaldi" },
+
+    { "id": "q21", "category": "Movies", "text": "Who directed 'Jurassic Park'?", "answer": "Steven Spielberg" },
+    { "id": "q22", "category": "Movies", "text": "Which movie features the quote 'I'll be back'?", "answer": "The Terminator" },
+    { "id": "q23", "category": "Movies", "text": "Who played Jack in 'Titanic'?", "answer": "Leonardo DiCaprio" },
+    { "id": "q24", "category": "Movies", "text": "Which movie won Best Picture at the Oscars in 1994?", "answer": "Forrest Gump" },
+    { "id": "q25", "category": "Movies", "text": "Which movie features a clownfish named Nemo?", "answer": "Finding Nemo" },
+
+    { "id": "q26", "category": "Art", "text": "Who painted the Mona Lisa?", "answer": "Leonardo da Vinci" },
+    { "id": "q27", "category": "Art", "text": "Which artist is known for 'The Persistence of Memory'?", "answer": "Salvador Dalí" },
+    { "id": "q28", "category": "Art", "text": "Which Dutch painter cut off part of his ear?", "answer": "Vincent van Gogh" },
+    { "id": "q29", "category": "Art", "text": "Which artist painted the Sistine Chapel ceiling?", "answer": "Michelangelo" },
+    { "id": "q30", "category": "Art", "text": "Which Spanish painter is known for 'Guernica'?", "answer": "Pablo Picasso" },
+
+    { "id": "q31", "category": "Technology", "text": "Who founded Microsoft?", "answer": "Bill Gates" },
+    { "id": "q32", "category": "Technology", "text": "Which company created the iPhone?", "answer": "Apple" },
+    { "id": "q33", "category": "Technology", "text": "What does 'HTTP' stand for?", "answer": "HyperText Transfer Protocol" },
+    { "id": "q34", "category": "Technology", "text": "What does 'AI' stand for?", "answer": "Artificial Intelligence" },
+    { "id": "q35", "category": "Technology", "text": "What year was Google founded?", "answer": "1998" },
+
+    { "id": "q36", "category": "Food", "text": "What is sushi traditionally wrapped in?", "answer": "Seaweed" },
+    { "id": "q37", "category": "Food", "text": "Which fruit is known as the 'king of fruits'?", "answer": "Durian" },
+    { "id": "q38", "category": "Food", "text": "What is the main ingredient in guacamole?", "answer": "Avocado" },
+    { "id": "q39", "category": "Food", "text": "Which country is famous for croissants?", "answer": "France" },
+    { "id": "q40", "category": "Food", "text": "Which spice is known as 'red gold'?", "answer": "Saffron" },
+
+    { "id": "q41", "category": "Mythology", "text": "Who is the king of the Greek gods?", "answer": "Zeus" },
+    { "id": "q42", "category": "Mythology", "text": "Who is the goddess of wisdom in Greek mythology?", "answer": "Athena" },
+    { "id": "q43", "category": "Mythology", "text": "Who is the god of the underworld in Greek mythology?", "answer": "Hades" },
+    { "id": "q44", "category": "Mythology", "text": "Who is the Roman equivalent of Zeus?", "answer": "Jupiter" },
+    { "id": "q45", "category": "Mythology", "text": "Who is the Norse god of thunder?", "answer": "Thor" },
+
+    { "id": "q46", "category": "Animals", "text": "What is the fastest land animal?", "answer": "Cheetah" },
+    { "id": "q47", "category": "Animals", "text": "What is the largest mammal?", "answer": "Blue Whale" },
+    { "id": "q48", "category": "Animals", "text": "What is the tallest animal?", "answer": "Giraffe" },
+    { "id": "q49", "category": "Animals", "text": "Which animal is known as the 'King of the Jungle'?", "answer": "Lion" },
+    { "id": "q50", "category": "Animals", "text": "What is the only mammal capable of true flight?", "answer": "Bat" },
+
+    { "id": "q51", "category": "Space", "text": "What is the closest planet to the Sun?", "answer": "Mercury" },
+    { "id": "q52", "category": "Space", "text": "Which planet is known as the Red Planet?", "answer": "Mars" },
+      { "id": "q53", "category": "Space", "text": "What is the largest planet in our solar system?", "answer": "Jupiter" },
+    { "id": "q54", "category": "Space", "text": "Which planet is famous for its rings?", "answer": "Saturn" },
+    { "id": "q55", "category": "Space", "text": "What galaxy do we live in?", "answer": "Milky Way" },
+
+    { "id": "q56", "category": "Politics", "text": "Who was the first President of the United States?", "answer": "George Washington" },
+    { "id": "q57", "category": "Politics", "text": "Which U.S. president resigned due to the Watergate scandal?", "answer": "Richard Nixon" },
+    { "id": "q58", "category": "Politics", "text": "Who was the British Prime Minister during World War II?", "answer": "Winston Churchill" },
+    { "id": "q59", "category": "Politics", "text": "Who was the first president of South Africa after apartheid?", "answer": "Nelson Mandela" },
+    { "id": "q60", "category": "Politics", "text": "Which U.S. president signed the Civil Rights Act of 1964?", "answer": "Lyndon B. Johnson" },
+
+    { "id": "q61", "category": "Language", "text": "What is the most spoken language in the world by native speakers?", "answer": "Mandarin Chinese" },
+    { "id": "q62", "category": "Language", "text": "What is the official language of Brazil?", "answer": "Portuguese" },
+    { "id": "q63", "category": "Language", "text": "What is the official language of Japan?", "answer": "Japanese" },
+    { "id": "q64", "category": "Language", "text": "What is the official language of Germany?", "answer": "German" },
+    { "id": "q65", "category": "Language", "text": "What is the official language of Egypt?", "answer": "Arabic" },
+
+    { "id": "q66", "category": "Business", "text": "Who founded Microsoft?", "answer": "Bill Gates" },
+    { "id": "q67", "category": "Business", "text": "Who founded Apple Inc.?", "answer": "Steve Jobs, Steve Wozniak, and Ronald Wayne" },
+    { "id": "q68", "category": "Business", "text": "Who founded Amazon?", "answer": "Jeff Bezos" },
+    { "id": "q69", "category": "Business", "text": "Who founded Facebook?", "answer": "Mark Zuckerberg" },
+    { "id": "q70", "category": "Business", "text": "Who founded Google?", "answer": "Larry Page and Sergey Brin" },
+
+    { "id": "q71", "category": "Religion", "text": "What is the holy book of Islam?", "answer": "Qur'an" },
+    { "id": "q72", "category": "Religion", "text": "What is the holy book of Christianity?", "answer": "Bible" },
+    { "id": "q73", "category": "Religion", "text": "What is the holy book of Judaism?", "answer": "Torah" },
+    { "id": "q74", "category": "Religion", "text": "Who is the founder of Buddhism?", "answer": "Siddhartha Gautama (Buddha)" },
+    { "id": "q75", "category": "Religion", "text": "Who is the founder of Sikhism?", "answer": "Guru Nanak" },
+
+    { "id": "q76", "category": "Pop Culture", "text": "Who is known as the 'Queen of Pop'?", "answer": "Madonna" },
+    { "id": "q77", "category": "Pop Culture", "text": "Who is known as the 'King of Pop'?", "answer": "Michael Jackson" },
+    { "id": "q78", "category": "Pop Culture", "text": "Which singer released the album '1989'?", "answer": "Taylor Swift" },
+    { "id": "q79", "category": "Pop Culture", "text": "Which actor played Iron Man in the Marvel films?", "answer": "Robert Downey Jr." },
+    { "id": "q80", "category": "Pop Culture", "text": "Which TV show features the character Walter White?", "answer": "Breaking Bad" },
+
+    { "id": "q81", "category": "Geography", "text": "What is the largest country in the world by area?", "answer": "Russia" },
+    { "id": "q82", "category": "Geography", "text": "What is the smallest country in the world?", "answer": "Vatican City" },
+    { "id": "q83", "category": "Geography", "text": "What is the longest river in the world?", "answer": "Nile River" },
+    { "id": "q84", "category": "Geography", "text": "What is the highest mountain in the world?", "answer": "Mount Everest" },
+    { "id": "q85", "category": "Geography", "text": "What is the largest desert in the world?", "answer": "Sahara Desert" },
+
+    { "id": "q86", "category": "History", "text": "In which year did World War II end?", "answer": "1945" },
+    { "id": "q87", "category": "History", "text": "Who discovered America in 1492?", "answer": "Christopher Columbus" },
+    { "id": "q88", "category": "History", "text": "Which wall divided East and West Berlin until 1989?", "answer": "Berlin Wall" },
+    { "id": "q89", "category": "History", "text": "Who was assassinated in Dallas in 1963?", "answer": "John F. Kennedy" },
+    { "id": "q90", "category": "History", "text": "Which empire was ruled by Genghis Khan?", "answer": "Mongol Empire" },
+
+    { "id": "q91", "category": "Philosophy", "text": "Who wrote 'The Republic'?", "answer": "Plato" },
+    { "id": "q92", "category": "Philosophy", "text": "Who is known as the father of modern philosophy?", "answer": "René Descartes" },
+    { "id": "q93", "category": "Philosophy", "text": "Who wrote 'Nicomachean Ethics'?", "answer": "Aristotle" },
+    { "id": "q94", "category": "Philosophy", "text": "Which philosopher declared 'God is dead'?", "answer": "Friedrich Nietzsche" },
+    { "id": "q95", "category": "Philosophy", "text": "Who wrote 'Meditations'?", "answer": "Marcus Aurelius" },
+
+    { "id": "q96", "category": "Movies", "text": "Which movie won Best Picture at the Oscars in 1994?", "answer": "Forrest Gump" },
+    { "id": "q97", "category": "Sports", "text": "Which sport uses a shuttlecock?", "answer": "Badminton" },
+    { "id": "q98", "category": "Music", "text": "Which instrument has 88 keys?", "answer": "Piano" },
+    { "id": "q99", "category": "Art", "text": "Which artist painted the Sistine Chapel ceiling?", "answer": "Michelangelo" },
+    { "id": "q100", "category": "Science", "text": "Which scientist proposed the theory of relativity?", "answer": "Albert Einstein" }
+  ]
+}

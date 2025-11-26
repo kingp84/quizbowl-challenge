@@ -1,0 +1,1127 @@
+{
+  "format": "Quizbowl",
+  "round": "Froshmore Math Game 3_bonuses",
+  "type": "bonus",
+  "questions": [
+    {
+      "id": "f1",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "country, which today is a Bolivarian Republic led by Nicolas Maduro?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Venezuela",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "3",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Froshmore Math Round Three",
+          "answer": "OAAC 2024-2025"
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 14. FINE ARTS: A parody of a musical by this duo includes the song “Shpadoinkle” and is",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Cannibal! The Musical. That musical by this duo includes a dream ballet and the song",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f7",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "* “Oh, what a beautiful morning.” Who is this duo who created the musical Oklahoma?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f8",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (Richard) Rodgers and (Oscar) Hammerstein [accept names in either order, but",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f9",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "both answers required)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f10",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: What other Rodgers and Hammerstein musical includes the song, “Getting to Know",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f11",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "You” and is based on the novel Anna and the King of Siam?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f12",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: The King and I",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f13",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 15. MATH COMPUTATION: Solve this equation for x: 12x + 5 = 3x – 112",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f14",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (x = ) -13 [negative thirteen]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f15",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS COMPUTATION: Solve this equation for y: 5y3 + 7y – 31 = 289 + 7y",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f16",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (y = ) 4",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f17",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 16. SCIENCE CALCULATION: A layer of rock was analyzed to determine its age using potassium-",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f18",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "argon dating. If the half-life of potassium-40 is 1.25 billion years and the sample still contains",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f19",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "25% of the parent potassium, how old is the rock layer in years?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f20",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 2,500,000,000 (2.5 billion)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f21",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS CALCULATION: An archaeologist analyzed an object using radiocarbon dating to",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f22",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "determine its age. If the half-life of carbon-14 is 5730 years and 6.25% of the parent carbon-14",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f23",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "still remains, how old is the object in years?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f24",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 22,920",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f25",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 17. SOCIAL STUDIES: In 1999, this state elected a governor from the Reform Party, former",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f26",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "wrestler Jesse Ventura. In 2020, this state was the site of riots following the death of *",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f27",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "George Floyd. Tim Walz is the governor of what midwestern state?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f28",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Minnesota",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f29",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: Minnesota was also the home state of what Vice President under Lyndon B. Johnson,",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f30",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "who lost the 1968 presidential election to Richard Nixon?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f31",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (Hubert H.) Humphrey",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f32",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 18. POP/CE: Dallas will be home to this new in-person entertainment concept.* The",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f33",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "entertainment venue will host dining, live events, and interactive experiences based on the",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f34",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "streaming service’s most popular content. Name the company opening its first brick and mortar",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f35",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "entertainment experience.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f36",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Netflix",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f37",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: The new venue will have a gift shop solely devoted to which Netflix show set in 1980s",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f38",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Indiana?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f39",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Stranger Things",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f40",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "4",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f41",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Froshmore Math Round Three",
+          "answer": "OAAC 2024-2025"
+        }
+      ]
+    },
+    {
+      "id": "f42",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "END OF THIRD QUARTER",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f43",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "The score at the end of the third quarter is",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f44",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team one ____________ Team two ____________",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f45",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Are there any questions?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f46",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "(pause and look at the coaches if there are no protests proceed)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f47",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "\"Coaches... you may substitute if you wish",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f48",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 19. MATH COMPUTATION:. The Tenth Street Book Club has twelve members. How many ways",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f49",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "can they select a president and a vice president?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f50",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 132",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f51",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS COMPUTATION: The Tenth Street Book Club has read seven books this year so far. In",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f52",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "how many different ways could they line up these seven books on a bookshelf?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f53",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 5040",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f54",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 20. SCIENCE Cells, like all living things, have a life cycle. Most of a cell’s life is spent in",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f55",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "this phase where it prepares to undergo cell division. What is the name of this phase, that",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f56",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "includes growth, DNA replication, and preparation for mitosis?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f57",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Interphase",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f58",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: Within mitosis are several sub-phases. What is the final stage of mitosis in which the",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f59",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "new nuclear membranes appear in each new daughter cell?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f60",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: telophase",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f61",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 21. HUMANITIES: This group’s traditional local religion features deities that are either",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f62",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "peaceful or wrathful and is known as Bon. This group’s independence was ended after",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f63",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "a conquest in 1951 by the * People’s Republic of China. What is this people group, who name a",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f64",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "plateau in western China and whose leader is the Dalai Lama?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f65",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Tibetans",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f66",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: What other minority group in China has been subject to a cultural genocide centered",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f67",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "primarily in the Xinjiang region?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f68",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Uyghurs [pronounced Wee-gurs]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f69",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 22. MATH COMPUTATION:. How many ounces are there in five gallons?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f70",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 640 (ounces)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f71",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS COMPUTATION: How many teaspoons are there in 45 tablespoons?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f72",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 135 (teaspoons)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f73",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "5",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f74",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Froshmore Math Round Three",
+          "answer": "OAAC 2024-2025"
+        }
+      ]
+    },
+    {
+      "id": "f75",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 23. SOCIAL STUDIES: This modern-day country was the site of the Diponegoro War, which",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f76",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "led to its dominance by the Dutch East India Company. A president of this country",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f77",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "established the principle of Guided Democracy and was named * Sukarno. What is this",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f78",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "country governed from Jakarta?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f79",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: (Republic of) Indonesia",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f80",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: What authoritarian and famously corrupt politician succeeded Sukarno as President of",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f81",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Indonesia?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f82",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Suharto",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f83",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "_____ _____ 24. MATH: What is the base of a common logarithm?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f84",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Ten",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f85",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "BONUS BONUS: A logarithm with a base of e is known as what kind of logarithm?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f86",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Natural (logarithm)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f87",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "END OF GAME",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f88",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "The score at the end of the game is",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f89",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team one _____",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f90",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Team two _____",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f91",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "If there is a tie allow for substitution before you ask the tie-breaker questions. Read all 5 to",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f92",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "determine the winner.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f93",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Tie Breakers",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f94",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATH: Which trig function is defined as the adjacent leg over the hypotenuse?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f95",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Cosine",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f96",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATH COMPUTATION: Calculate the quantity five x cubed, y to the fifth, close quantity to the",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f97",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "fourth power.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f98",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "(5x3y5)4",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f99",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 625x12y20 [625 X to the twelfth (power), Y to the twentieth (power)]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f100",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATH COMPUTATION: Evaluate (2x + 7)2 [READ evaluate two X plus seven, quantity",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f101",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "squared]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f102",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 4x2 + 28x + 49",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f103",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATH: If every element of the domain of a relation has exactly one element in the range of the",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f104",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "relation, what is this relation called?",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f105",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: Function",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f106",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "MATH COMPUTATION: What is the smallest prime factor of the number 4,376,295.",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f107",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "[Four million, three hundred seventy-six thousand, two",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f108",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "hundred ninety-five.]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f109",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "ANSWER: 3 [sum of the digits is 36, a multiple of 3]",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f110",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "Are there any questions? ( pause and look at the coaches if there are no protests proceed)",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f111",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "This ends the game. \"",
+          "answer": "MISSING"
+        }
+      ]
+    },
+    {
+      "id": "f112",
+      "type": "bonus",
+      "parts": [
+        {
+          "text": "6",
+          "answer": "MISSING"
+        }
+      ]
+    }
+  ]
+}
