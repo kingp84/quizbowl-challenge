@@ -1,24 +1,64 @@
-# Simple in-memory score tracking
+# stats_manager.py
+# Handles player scores and automatic scoring logic for Quizbowl Challenge
 
-team_scores = {}
-player_scores = {}
+class Player:
+    def __init__(self, name):
+        self.name = name
+        self.score = 0
+        self.buzzed_in = False
 
-def record_team_points(team, points):
-    team_scores[team] = team_scores.get(team, 0) + points
+    def buzz(self):
+        """Mark player as buzzed in."""
+        self.buzzed_in = True
 
-def record_individual_points(player, points):
-    player_scores[player] = player_scores.get(player, 0) + points
+    def reset_buzz(self):
+        """Reset buzz state after answer attempt."""
+        self.buzzed_in = False
 
-def get_team_scores():
-    return team_scores
 
-def get_individual_scores():
-    return player_scores
+class StatsManager:
+    def __init__(self):
+        self.players = {}
 
-def reset_team_scores():
-    global team_scores
-    team_scores = {}
+    def add_player(self, name):
+        if name not in self.players:
+            self.players[name] = Player(name)
 
-def reset_individual_scores():
-    global player_scores
-    player_scores = {}
+    def get_score(self, name):
+        if name in self.players:
+            return self.players[name].score
+        return None
+
+    def buzz_in(self, name):
+        """Player buzzes in to answer."""
+        if name in self.players:
+            self.players[name].buzz()
+            return True
+        return False
+
+    def check_answer(self, name, given_answer, correct_answer):
+        """
+        Compare player's answer to correct answer.
+        Award +1 point for correct, no penalty for incorrect.
+        """
+        if name not in self.players:
+            return False
+
+        player = self.players[name]
+        player.reset_buzz()
+
+        if given_answer.strip().lower() == correct_answer.strip().lower():
+            player.score += 1
+            return True
+        else:
+            # No penalty for incorrect
+            return False
+
+    def reset_scores(self):
+        """Reset all scores to zero."""
+        for player in self.players.values():
+            player.score = 0
+
+    def get_all_scores(self):
+        """Return dictionary of all player scores."""
+        return {name: player.score for name, player in self.players.items()}
