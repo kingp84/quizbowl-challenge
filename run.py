@@ -1,40 +1,66 @@
-import subprocess
-import os
-import requests
-import time
-import sys
+# run.py
+# Core game loop for Quizbowl Challenge
 
-# Ensure we run from project root
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+from packet_loader import load_packets
+from stats_manager import StatsManager
 
-# Start ngrok (free random domain)
-ngrok = subprocess.Popen(["ngrok", "http", "5000"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+def play_game(format_type):
+    stats = StatsManager()
+    stats.add_player("Player1")  # Example single player setup
 
-# Wait for ngrok to initialize, then poll its local API
-public_url = None
-for i in range(15):  # up to ~15 seconds
-    try:
-        resp = requests.get("http://127.0.0.1:4040/api/tunnels", timeout=1)
-        tunnels = resp.json().get("tunnels", [])
-        if tunnels:
-            # Pick the first https tunnel
-            for t in tunnels:
-                if t.get("public_url", "").startswith("https://"):
-                    public_url = t["public_url"]
-                    break
-            if public_url:
-                break
-    except Exception:
-        pass
-    time.sleep(1)
+    packets = load_packets(format_type)
+    if not packets:
+        print(f"No {format_type} packets loaded!")
+        return
 
-if public_url:
-    print(f"Public URL: {public_url}")
-else:
-    print("Could not fetch ngrok URL after waiting.")
-    # Not fatal — continue to start the app
+    # Iterate through packets/questions
+    for packet in packets:
+        for q in packet["questions"]:
+            if q["type"] == "tossup":
+                print("\nTOSSUP:")
+                print(f"Hard: {q['difficulty']['hard']}")
+                print(f"Medium: {q['difficulty']['medium']}")
+                print(f"Easy: {q['difficulty']['easy']}")
 
-# Launch the Flask app
-# If your main app file has a different name, change "app.py" here.
-exit_code = subprocess.call([sys.executable, "app.py"])
-sys.exit(exit_code)
+                # Simulate buzz + answer
+                stats.buzz_in("Player1")
+                given_answer = input("Your answer: ")
+                correct_answer = q["answer"]
+
+                if stats.check_answer("Player1", given_answer, correct_answer):
+                    print("✅ Correct! +1 point")
+                else:
+                    print(f"❌ Incorrect. Correct answer was: {correct_answer}")
+
+            elif q["type"] == "bonus":
+                print("\nBONUS:")
+                for part in q["parts"]:
+                    print(f"Q: {part['text']}")
+                    given_answer = input("Your answer: ")
+                    correct_answer = part["answer"]
+
+                    if stats.check_answer("Player1", given_answer, correct_answer):
+                        print("✅ Correct! +1 point")
+                    else:
+                        print(f"❌ Incorrect. Correct answer was: {correct_answer}")
+
+            elif q["type"] == "sixty_second":
+                print("\n60-SECOND ROUND:")
+                print(f"Q: {q['text']}")
+                given_answer = input("Your answer: ")
+                correct_answer = q["answer"]
+
+                if stats.check_answer("Player1", given_answer, correct_answer):
+                    print("✅ Correct! +1 point")
+                else:
+                    print(f"❌ Incorrect. Correct answer was: {correct_answer}")
+
+    # Final scores
+    print("\nFinal Scores:")
+    for name, score in stats.get_all_scores().items():
+        print(f"{name}: {score}")
+
+if __name__ == "__main__":
+    print("Choose format: NAQT / OSSAA / Froshmore / Trivia")
+    choice = input("Format: ").strip()
+    play_game(choice)
